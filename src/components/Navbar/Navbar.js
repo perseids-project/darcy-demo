@@ -13,15 +13,10 @@ import NavDropdownToggle from './NavDropdownToggle';
 
 const renderCollapse = collapsed => (
   <Collapse isOpen={!collapsed} navbar>
-    <ul className="navbar-nav mr-auto">
+    <ul className="navbar-nav ml-auto">
       <li className="nav-item">
         <NavLink exact className="nav-link" to="/">
           Home
-        </NavLink>
-      </li>
-      <li className="nav-item">
-        <NavLink exact className="nav-link" to="/about">
-          About
         </NavLink>
       </li>
       <UncontrolledDropdown nav inNavbar>
@@ -68,6 +63,11 @@ const renderCollapse = collapsed => (
           </DropdownItem>
         </DropdownMenu>
       </UncontrolledDropdown>
+      <li className="nav-item">
+        <NavLink exact className="nav-link" to="/about">
+          About
+        </NavLink>
+      </li>
     </ul>
   </Collapse>
 );
@@ -88,6 +88,10 @@ class Navbar extends Component {
       <React.Fragment>
 
         <PerseidsHeader>
+          <span className="text-muted mr-auto">
+            Glossary of Greek Birds
+          </span>
+
           <NavbarToggler onClick={this.toggleNavbar} aria-label="navigation menu" />
 
           {renderCollapse(collapsed)}
