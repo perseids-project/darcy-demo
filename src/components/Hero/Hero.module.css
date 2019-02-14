@@ -1,0 +1,20 @@
+.background {
+  background-color: #a47870;
+  background-image: url('./birds.jpg');
+  border-radius: 0 !important;
+  background-position: center;
+  background-size: 150% auto;
+}
+
+@media (min-width: 500px) {
+  .background {
+    background-size: 100% auto;
+  }
+}
+
+.header {
+  font-size: 4.0rem;
+  font-weight: 400;
+  line-height: 1.2;
+}
+

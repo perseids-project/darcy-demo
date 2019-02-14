@@ -12,18 +12,16 @@ const Router = ({ basename }) => (
   <BrowserRouter basename={basename}>
     <React.Fragment>
       <Navbar />
-      <div className="container">
-        <main>
-          <div className="mb-4">
-            <Switch>
-              <Route exact path="/about" component={About} />
-              <Route exact path="/instructions" component={Instructions} />
-              <Route exact path="/login" component={Login} />
-              <Route exact path="/" component={Home} />
-            </Switch>
-          </div>
-        </main>
-      </div>
+      <main role="main">
+        <div className="mb-4">
+          <Switch>
+            <Route exact path="/about" component={About} />
+            <Route exact path="/instructions" component={Instructions} />
+            <Route exact path="/login" component={Login} />
+            <Route exact path="/" component={Home} />
+          </Switch>
+        </div>
+      </main>
     </React.Fragment>
   </BrowserRouter>
 );
