@@ -3,9 +3,9 @@ import PropTypes from 'prop-types';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
 import About from '../About';
+import Bird from '../Bird';
+import Decision from '../Decision';
 import Home from '../Home';
-import Instructions from '../Instructions';
-import Login from '../Login';
 import Navbar from '../Navbar';
 
 const Router = ({ basename }) => (
@@ -16,8 +16,8 @@ const Router = ({ basename }) => (
         <div className="mb-4">
           <Switch>
             <Route exact path="/about" component={About} />
-            <Route exact path="/instructions" component={Instructions} />
-            <Route exact path="/login" component={Login} />
+            <Route exact path="/birds/:bird" component={Bird} />
+            <Route exact path="/decisions/:bird" component={Decision} />
             <Route exact path="/" component={Home} />
           </Switch>
         </div>

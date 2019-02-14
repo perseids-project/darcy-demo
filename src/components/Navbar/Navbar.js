@@ -1,7 +1,15 @@
 import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
-import { NavbarToggler, Collapse } from 'reactstrap';
+import {
+  Collapse,
+  DropdownItem,
+  DropdownMenu,
+  NavbarToggler,
+  UncontrolledDropdown,
+} from 'reactstrap';
 import { PerseidsHeader } from 'perseids-react-components';
+
+import NavDropdownToggle from './NavDropdownToggle';
 
 const renderCollapse = collapsed => (
   <Collapse isOpen={!collapsed} navbar>
@@ -16,19 +24,50 @@ const renderCollapse = collapsed => (
           About
         </NavLink>
       </li>
-      <li className="nav-item">
-        <NavLink exact className="nav-link" to="/instructions">
-          Instructions
-        </NavLink>
-      </li>
-    </ul>
-
-    <ul className="navbar-nav my-2 my-lg-02">
-      <li className="nav-item">
-        <NavLink exact className="nav-link" to="/login">
-          Log in
-        </NavLink>
-      </li>
+      <UncontrolledDropdown nav inNavbar>
+        <NavDropdownToggle route="/birds" nav caret>
+          Birds
+        </NavDropdownToggle>
+        <DropdownMenu>
+          <DropdownItem>
+            <NavLink exact className="nav-link" to="/birds/aithyia">
+              Aithyia
+            </NavLink>
+          </DropdownItem>
+          <DropdownItem>
+            <NavLink exact className="nav-link" to="/birds/glaux">
+              Glaux
+            </NavLink>
+          </DropdownItem>
+          <DropdownItem>
+            <NavLink exact className="nav-link" to="/birds/keleos">
+              Keleos
+            </NavLink>
+          </DropdownItem>
+        </DropdownMenu>
+      </UncontrolledDropdown>
+      <UncontrolledDropdown nav inNavbar>
+        <NavDropdownToggle route="/decisions" nav caret>
+          Decisions
+        </NavDropdownToggle>
+        <DropdownMenu>
+          <DropdownItem>
+            <NavLink exact className="nav-link" to="/decisions/aithyia">
+              Aithyia
+            </NavLink>
+          </DropdownItem>
+          <DropdownItem>
+            <NavLink exact className="nav-link" to="/decisions/glaux">
+              Glaux
+            </NavLink>
+          </DropdownItem>
+          <DropdownItem>
+            <NavLink exact className="nav-link" to="/decisions/keleos">
+              Keleos
+            </NavLink>
+          </DropdownItem>
+        </DropdownMenu>
+      </UncontrolledDropdown>
     </ul>
   </Collapse>
 );
