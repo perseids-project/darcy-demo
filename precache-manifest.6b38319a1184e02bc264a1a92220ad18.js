@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/darcy-demo/static/media/keleos.8db67684.png"
   },
   {
-    "revision": "6b836b465c4e5bad08b04a2e8d12aa82",
+    "revision": "d0a8b07618f1bdc772c0e8c02e4fea74",
     "url": "/darcy-demo/index.html"
   }
 ];
