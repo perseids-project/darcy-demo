@@ -1,4 +1,5 @@
 import React from 'react';
+import PropTypes from 'prop-types';
 
 import GraphVis from 'react-graph-vis';
 
@@ -23,7 +24,7 @@ const characteristics = {
     { to: 3, from: 8 },
     { to: 4, from: 8 },
     { to: 5, from: 7 },
-  ]
+  ],
 };
 
 const divinity = {
@@ -47,7 +48,7 @@ const divinity = {
     { to: 4, from: 7 },
     { to: 5, from: 8 },
     { to: 6, from: 9 },
-  ]
+  ],
 };
 
 const options = {
@@ -55,7 +56,7 @@ const options = {
     hierarchical: false,
   },
   edges: {
-    color: "#000000",
+    color: '#000000',
   },
 };
 
@@ -64,14 +65,28 @@ const data = {
   divinity,
 };
 
-const Graph = ({ graph }) => (
-  <div>
-    <GraphVis
-      graph={data[graph] || characteristics}
-      options={options}
-      style={{ height: `${Math.max(window.innerWidth / 2, 300)}px` }}
-    />
-  </div>
-);
+const Graph = ({ graph }) => {
+  let width = 1366;
+  // eslint-disable-next-line no-undef
+  if (typeof window !== 'undefined') { width = window.innerWidth; }
+
+  return (
+    <div>
+      <GraphVis
+        graph={data[graph]}
+        options={options}
+        style={{ height: `${Math.max(width / 2, 300)}px` }}
+      />
+    </div>
+  );
+};
+
+Graph.propTypes = {
+  graph: PropTypes.string,
+};
+
+Graph.defaultProps = {
+  graph: 'characteristics',
+};
 
 export default Graph;

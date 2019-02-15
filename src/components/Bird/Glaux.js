@@ -24,7 +24,7 @@ const Glaux = () => (
         </div>
         <div className={`col-12 col-md-4 ${styles.imageContainer}`}>
           <p>
-            <img src={glaux} className={styles.image} />
+            <img src={glaux} alt="glaux" className={styles.image} />
           </p>
         </div>
       </div>
@@ -55,7 +55,7 @@ const Glaux = () => (
         </div>
         <div className={`col-12 col-md-4 ${styles.imageContainer}`}>
           <p>
-            <img src={glaux} className={styles.image} />
+            <img src={glaux} alt="glaux" className={styles.image} />
           </p>
         </div>
       </div>

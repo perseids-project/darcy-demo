@@ -1,5 +1,7 @@
 import React from 'react';
 
+import { MatchType } from '../../types';
+
 import Aithyia from './Aithyia';
 import Glaux from './Glaux';
 import Keleos from './Keleos';
@@ -7,11 +9,11 @@ import Keleos from './Keleos';
 const Bird = ({ match: { params: { bird } } }) => {
   switch (bird) {
     case 'aithyia':
-      return <Aithyia />
+      return <Aithyia />;
     case 'glaux':
-      return <Glaux />
+      return <Glaux />;
     case 'keleos':
-      return <Keleos />
+      return <Keleos />;
     default:
       return (
         <div className="container pt-4">
@@ -24,7 +26,11 @@ const Bird = ({ match: { params: { bird } } }) => {
           </div>
         </div>
       );
-  };
+  }
+};
+
+Bird.propTypes = {
+  match: MatchType.isRequired,
 };
 
 export default Bird;

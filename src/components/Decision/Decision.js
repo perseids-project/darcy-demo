@@ -1,5 +1,9 @@
 import React from 'react';
 
+import { MatchType } from '../../types';
+
+import { ucfirst } from '../../lib/Utils';
+
 import styles from './Decision.module.css';
 
 import aithyia from './aithyia.png';
@@ -18,34 +22,32 @@ const texts = {
   keleos: 'Mauris in nunc et dolor consequat pretium. Fusce elit orci, sodales vitae arcu non, ornare faucibus lorem. Maecenas vitae lacinia urna. Praesent quis metus vitae ante dapibus tempus in ornare elit.',
 };
 
-const ucfirst = string => (
-  string.charAt(0).toUpperCase() + string.slice(1)
-);
-
-const Decision = ({ match: { params: { bird } } }) => {
-  return (
-    <div className="container pt-4">
-      <div className="row">
-        <div className="col-md-8 offset-md-2 text-center">
-          <h2>{ucfirst(bird)}</h2>
-        </div>
-      </div>
-
-      <div className="row pt-3">
-        <div className="col-12 col-md-8 offset-md-2 text-justify">
-          <p>
-            {texts[bird]}
-          </p>
-        </div>
-      </div>
-
-      <div className="row pt-3">
-        <div className="col-12 col-md-8 offset-md-2 text-justify">
-          <img src={images[bird]} className={styles.image} />
-        </div>
+const Decision = ({ match: { params: { bird } } }) => (
+  <div className="container pt-4">
+    <div className="row">
+      <div className="col-md-8 offset-md-2 text-center">
+        <h2>{ucfirst(bird)}</h2>
       </div>
     </div>
-  );
+
+    <div className="row pt-3">
+      <div className="col-12 col-md-8 offset-md-2 text-justify">
+        <p>
+          {texts[bird]}
+        </p>
+      </div>
+    </div>
+
+    <div className="row pt-3">
+      <div className="col-12 col-md-8 offset-md-2 text-justify">
+        <img src={images[bird]} alt={`decision for ${bird}`} className={styles.image} />
+      </div>
+    </div>
+  </div>
+);
+
+Decision.propTypes = {
+  match: MatchType.isRequired,
 };
 
 export default Decision;

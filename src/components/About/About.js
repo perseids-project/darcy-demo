@@ -4,7 +4,10 @@ const About = () => (
   <div className="container pt-4">
     <div className="row">
       <div className="col-md-8 offset-md-2 text-center">
-        <h2>About <em>A Glossary of Greek Birds</em></h2>
+        <h2>
+          About
+          <em>A Glossary of Greek Birds</em>
+        </h2>
       </div>
     </div>
 

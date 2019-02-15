@@ -24,7 +24,7 @@ const Keleos = () => (
         </div>
         <div className={`col-12 col-md-4 ${styles.imageContainer}`}>
           <p>
-            <img src={keleos} className={styles.image} />
+            <img src={keleos} alt="keleos" className={styles.image} />
           </p>
         </div>
       </div>
@@ -46,7 +46,7 @@ const Keleos = () => (
         </div>
         <div className={`col-12 col-md-4 ${styles.imageContainer}`}>
           <p>
-            <img src={keleos} className={styles.image} />
+            <img src={keleos} alt="keleos" className={styles.image} />
           </p>
         </div>
       </div>

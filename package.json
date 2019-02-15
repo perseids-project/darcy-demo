@@ -4,6 +4,8 @@
   "private": true,
   "dependencies": {
     "bootstrap": "^4.3.1",
+    "eslint-config-airbnb": "^17.1.0",
+    "eslint-plugin-jest": "^22.3.0",
     "perseids-react-components": "^0.0.10",
     "prop-types": "^15.7.1",
     "react": "^16.8.1",
@@ -17,11 +19,9 @@
   "scripts": {
     "start": "react-scripts start",
     "build": "react-scripts build",
+    "lint": "eslint --ext=js --ext=jsx .",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
-  },
-  "eslintConfig": {
-    "extends": "react-app"
   },
   "browserslist": [
     ">0.2%",
