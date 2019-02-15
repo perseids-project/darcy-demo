@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "de219882faf60cd4e4c4",
+    "revision": "3a53b75b489ebbc2998f",
     "url": "/darcy-demo/static/css/main.37b3c25b.chunk.css"
   },
   {
-    "revision": "de219882faf60cd4e4c4",
-    "url": "/darcy-demo/static/js/main.de219882.chunk.js"
+    "revision": "3a53b75b489ebbc2998f",
+    "url": "/darcy-demo/static/js/main.3a53b75b.chunk.js"
   },
   {
     "revision": "326ae78e0d36dc272174",
@@ -48,7 +48,7 @@ self.__precacheManifest = [
     "url": "/darcy-demo/static/media/keleos.8db67684.png"
   },
   {
-    "revision": "95cc82f3190109dbe94c56f0b68435c9",
+    "revision": "6b836b465c4e5bad08b04a2e8d12aa82",
     "url": "/darcy-demo/index.html"
   }
 ];
