@@ -65,7 +65,13 @@ const data = {
   divinity,
 };
 
-const Graph = ({ graph }) => {
+const Graph = ({ graph, useragent }) => {
+  if (useragent === 'ReactSnap') {
+    return (
+      <div />
+    );
+  }
+
   let width = 1366;
   // eslint-disable-next-line no-undef
   if (typeof window !== 'undefined') { width = window.innerWidth; }
@@ -83,6 +89,7 @@ const Graph = ({ graph }) => {
 
 Graph.propTypes = {
   graph: PropTypes.string,
+  useragent: PropTypes.string.isRequired,
 };
 
 Graph.defaultProps = {
