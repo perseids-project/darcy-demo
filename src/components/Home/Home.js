@@ -59,11 +59,11 @@ const Home = ({ match: { params: { graph } } }) => {
             </UncontrolledDropdown>
           </div>
         </div>
-      </div>
 
-      <div className="row pt-3">
-        <div className="col-12">
-          <Graph graph={graph} useragent={userAgent} />
+        <div className="row pt-3">
+          <div className="col-12">
+            <Graph graph={graph} useragent={userAgent} />
+          </div>
         </div>
       </div>
     </React.Fragment>

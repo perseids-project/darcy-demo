@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import PropTypes from 'prop-types';
 
 import GraphVis from 'react-graph-vis';
@@ -65,27 +65,78 @@ const data = {
   divinity,
 };
 
-const Graph = ({ graph, useragent }) => {
-  if (useragent === 'ReactSnap') {
-    return (
-      <div />
-    );
+// eslint-disable-next-line no-undef
+const hasWindow = typeof window !== 'undefined';
+
+// these numbers are taken from the default max-width and media queries in Bootstrap
+// we subtract 30 at the end because that's the default margin size
+const dimensions = () => {
+  let screenSize = 1366;
+
+  // eslint-disable-next-line no-undef
+  if (hasWindow) { screenSize = window.innerWidth; }
+
+  let width = screenSize;
+
+  if (screenSize >= 1200) {
+    width = 1140;
+  } else if (screenSize >= 992) {
+    width = 960;
+  } else if (screenSize >= 768) {
+    width = 720;
+  } else if (screenSize >= 576) {
+    width = 540;
   }
 
-  let width = 1366;
-  // eslint-disable-next-line no-undef
-  if (typeof window !== 'undefined') { width = window.innerWidth; }
+  width -= 30;
+  const height = Math.max(width / 2, 400);
 
-  return (
-    <div>
-      <GraphVis
-        graph={data[graph]}
-        options={options}
-        style={{ height: `${Math.max(width / 2, 300)}px` }}
-      />
-    </div>
-  );
+  return { width, height };
 };
+
+class Graph extends Component {
+  state = dimensions();
+
+  componentDidMount() {
+    if (hasWindow) {
+      // eslint-disable-next-line no-undef
+      window.addEventListener('resize', this.updateDimensions);
+    }
+  }
+
+  componentWillUnmount() {
+    if (hasWindow) {
+      // eslint-disable-next-line no-undef
+      window.removeEventListener('resize', this.updateDimensions);
+    }
+  }
+
+  updateDimensions = () => {
+    this.setState(dimensions());
+  }
+
+  render() {
+    const { graph, useragent } = this.props;
+    const { height, width } = this.state;
+
+    if (useragent === 'ReactSnap') {
+      return (
+        <div />
+      );
+    }
+    return (
+      <div>
+        <GraphVis
+          graph={data[graph]}
+          options={options}
+          style={{
+            width: `${width}px`, height: `${height}px`, borderStyle: 'solid', borderWidth: '1px',
+          }}
+        />
+      </div>
+    );
+  }
+}
 
 Graph.propTypes = {
   graph: PropTypes.string,
