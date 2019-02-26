@@ -1,0 +1,7 @@
+.image {
+  max-width: 100%;
+  max-height: 240px;
+  border-style: solid;
+  border-width: 1px;
+  float: right;
+}
