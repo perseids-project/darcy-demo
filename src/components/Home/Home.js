@@ -28,11 +28,12 @@ const Home = ({ match: { params: { graph } } }) => {
         <div className="row">
           <div className="col-md-8 offset-md-2 text-center">
             <h2>
-              Aliquam ac velit semper sapien.
+              Browse Ancient Bird Myths by Concept
             </h2>
-            <p>
-              Vestibulum luctus tincidunt dolor. Donec lacinia sed nibh ac volutpat. Mauris ligula nisi, ultricies et tellus sit amet, vehicula pharetra ligula. Vestibulum maximus lectus porttitor, vehicula purus quis, iaculis metus.
-            </p>
+            <p>Type search terms to populate the graph with stories!
+    </p>
+    <!––This second p tag with instructions on how to browse should be set in a smaller font than the previous one-->
+    <p>For instance, try "birds" and "water"</p>
           </div>
         </div>
       </div>
