@@ -14,6 +14,7 @@ const About = () => (
     <div className="row pt-3">
       <div className="col-12 col-md-8 offset-md-2 text-justify">
         <p>
+          bla bla bla
           Fusce velit tellus, volutpat vel nisl sed, facilisis gravida erat. Sed efficitur magna vel velit mollis mattis. Nam pellentesque tempor tempor. Maecenas vitae auctor massa. Etiam aliquet leo enim, fermentum vehicula massa scelerisque eget. Fusce porttitor sagittis libero a rhoncus. Cras tincidunt cursus velit at molestie. Sed vitae nulla ultrices, commodo sem tempus, congue nibh. Vivamus ut feugiat felis, vitae posuere libero. Mauris facilisis ex sit amet aliquet sodales. Fusce posuere, eros nec accumsan egestas, velit velit rutrum ante, quis aliquet ligula turpis vitae dolor.
         </p>
         <p>
