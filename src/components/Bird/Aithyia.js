@@ -24,11 +24,7 @@ const Aithyia = () => (
         </div>
         <div className={`col-12 col-md-4 ${styles.imageContainer}`}>
           <p>
-            <img
-              src={aithyia}
-              alt="aithyia"
-              className={`ml-2 mb-2 ${styles.image}`}
-            />
+            <img src={aithyia} alt="aithyia" className={styles.image} />
           </p>
         </div>
       </div>
