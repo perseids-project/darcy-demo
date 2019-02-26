@@ -5,7 +5,7 @@ const About = () => (
     <div className="row">
       <div className="col-md-8 offset-md-2 text-center">
         <h2>
-          About
+          About 
           <em>A Glossary of Greek Birds</em>
         </h2>
       </div>
@@ -13,15 +13,10 @@ const About = () => (
 
     <div className="row pt-3">
       <div className="col-12 col-md-8 offset-md-2 text-justify">
-        <p>
-          Fusce velit tellus, volutpat vel nisl sed, facilisis gravida erat. Sed efficitur magna vel velit mollis mattis. Nam pellentesque tempor tempor. Maecenas vitae auctor massa. Etiam aliquet leo enim, fermentum vehicula massa scelerisque eget. Fusce porttitor sagittis libero a rhoncus. Cras tincidunt cursus velit at molestie. Sed vitae nulla ultrices, commodo sem tempus, congue nibh. Vivamus ut feugiat felis, vitae posuere libero. Mauris facilisis ex sit amet aliquet sodales. Fusce posuere, eros nec accumsan egestas, velit velit rutrum ante, quis aliquet ligula turpis vitae dolor.
-        </p>
-        <p>
-          Mauris placerat rutrum eros, semper vehicula metus vehicula non. Aliquam feugiat egestas sapien placerat congue. Cras sit amet felis in nibh volutpat efficitur. Donec sed nisi lacus. Aenean eget rutrum elit. Mauris lacus eros, imperdiet ac massa ac, fermentum finibus ligula. Integer in dolor eu eros euismod faucibus quis in velit. Sed venenatis, nisi vitae viverra pellentesque, sapien mi vehicula sem, eget vulputate magna purus vitae elit. Pellentesque sed ultricies velit. Curabitur fringilla euismod pulvinar. Praesent ut dui ultrices velit gravida dictum. Fusce augue eros, malesuada a molestie sit amet, maximus sed dolor. Aenean pellentesque, tellus nec tincidunt sollicitudin, massa turpis malesuada odio, ut malesuada tortor ante et tortor. Proin suscipit sapien sit amet augue aliquet, eu congue turpis iaculis. Nulla mi nisl, viverra nec magna at, placerat suscipit magna.
-        </p>
-        <p>
-          Cras mollis diam purus, sed suscipit lacus aliquet quis. Aenean pellentesque nisl sed turpis aliquet elementum. Integer in felis leo. Pellentesque arcu libero, facilisis vitae enim at, blandit pharetra nibh. Mauris molestie ut diam quis dictum. Nullam blandit euismod accumsan. Donec ipsum tellus, pharetra id metus ac, bibendum consectetur enim. Morbi commodo nec sapien sit amet tincidunt. Orci varius natoque penatibus et magnis dis parturient montes, nascetur ridiculus mus. Nulla sed nulla euismod, porta lacus non, dignissim velit. Etiam accumsan justo quis neque dictum imperdiet. Mauris posuere fringilla diam suscipit hendrerit.
-        </p>
+       <p>This project invites the public to engage with the fields of classics and ornithology via a series of short films based on D’Arcy Thompson’s Glossary of Greek Birds which is  accompanied by a digital resource shared as Open Data. The digital resource offers an interface to browse ancient myths by concept so as to discover connections between different stories and therefore gain a deeper understanding of the significance of these myths in Greek culture. Through these products, the public will have an opportunity to explore the intersection of science and the humanities. Indeed, Thompson was a biologist, mathematician, and classics scholar. His book surveys birds mentioned in ancient literature and mythology and gives modern scientific identifications of the birds. Each entry offers the opportunity to delve into scientific facts such as bird characteristics and behavior as well as into the significance of birds in mythology and folklore.
+</p>
+</p>Contact us<br>
+birdmyths.tufts@gmail.com</p>
       </div>
     </div>
   </div>
