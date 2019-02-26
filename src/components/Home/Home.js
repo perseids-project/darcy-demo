@@ -30,10 +30,14 @@ const Home = ({ match: { params: { graph } } }) => {
             <h2>
               Browse Ancient Bird Myths by Concept
             </h2>
-            <p>Type search terms to populate the graph with stories!
-    </p>
-    <!––This second p tag with instructions on how to browse should be set in a smaller font than the previous one-->
-    <p>For instance, try "birds" and "water"</p>
+            <p>
+              Type search terms to populate the graph with stories!
+            </p>
+            <p>
+              <small>
+                For instance, try &quot;birds&quot; and &quot;water&quot;
+              </small>
+            </p>
           </div>
         </div>
       </div>
