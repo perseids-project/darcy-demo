@@ -1,5 +1,9 @@
 import React from 'react';
 
+import styles from './About.module.css';
+
+import darcy from './darcy.jpeg';
+
 const About = () => (
   <div className="container pt-4">
     <div className="row">
@@ -14,8 +18,33 @@ const About = () => (
 
     <div className="row pt-3">
       <div className="col-12 col-md-8 offset-md-2 text-justify">
+        <img
+          src={darcy}
+          alt="portrait of D’Arcy Thompson"
+          className={`ml-3 mb-1 mt-1 ${styles.image}`}
+        />
         <p>
-          This project invites the public to engage with the fields of classics and ornithology via a series of short films based on D’Arcy Thompson’s Glossary of Greek Birds which is  accompanied by a digital resource shared as Open Data. The digital resource offers an interface to browse ancient myths by concept so as to discover connections between different stories and therefore gain a deeper understanding of the significance of these myths in Greek culture. Through these products, the public will have an opportunity to explore the intersection of science and the humanities. Indeed, Thompson was a biologist, mathematician, and classics scholar. His book surveys birds mentioned in ancient literature and mythology and gives modern scientific identifications of the birds. Each entry offers the opportunity to delve into scientific facts such as bird characteristics and behavior as well as into the significance of birds in mythology and folklore.
+          This project invites the public to engage with the fields of classics and ornithology
+          via a series of short films based on D’Arcy Thompson’s
+          {' '}
+          <em>
+            Glossary of Greek Birds
+          </em>
+          {' '}
+          which
+          is accompanied by a digital resource shared as Open Data.
+          The digital resource offers
+          an interface to browse ancient myths by concept so as to discover connections between
+          different stories and therefore gain a deeper understanding of the significance of these
+          myths in Greek culture.
+        </p>
+        <p>
+          Through these products, the public will have an opportunity to
+          explore the intersection of science and the humanities. Indeed, Thompson was a biologist,
+          mathematician, and classics scholar. His book surveys birds mentioned in ancient literature
+          and mythology and gives modern scientific identifications of the birds. Each entry offers
+          the opportunity to delve into scientific facts such as bird characteristics and behavior
+          as well as into the significance of birds in mythology and folklore.
         </p>
         <p>
           Contact us
