@@ -1,3 +1,21 @@
+.formGroup {
+  width: 100%;
+  display: flex !important;
+}
+
+.label {
+  display: flex !important;
+  align-items: center !important;
+  margin-bottom: 0;
+}
+
+.select {
+  flex-grow: 1;
+  display: inline-block !important;
+  width: auto !important;
+  vertical-align: middle !important;
+}
+
 .image {
   width: 100%;
   height: auto;

@@ -17,6 +17,7 @@ const Router = ({ basename }) => (
           <Switch>
             <Route exact path="/about" component={About} />
             <Route exact path="/birds/:bird" component={Bird} />
+            <Route exact path="/birds/:edition/:bird" component={Bird} />
             <Route exact path="/decisions/:bird" component={Decision} />
             <Route exact path="/home/:graph" component={Home} />
             <Route exact path="/" component={Home} />
