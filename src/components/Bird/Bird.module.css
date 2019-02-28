@@ -1,12 +1,17 @@
 .image {
-  max-width: 100%;
-  max-height: 278px;
+  width: 100%;
+  height: auto;
+    float: right;
+
   border-style: solid;
   border-width: 1px;
 }
 
-.imageContainer {
-  display: flex;
-  align-items: center;
-  justify-content: center;
+@media (min-width: 576px) {
+  .image {
+    width: auto;
+    max-height: 240px;
+
+    max-width: 100%;
+  }
 }
