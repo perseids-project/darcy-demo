@@ -14,7 +14,7 @@
 importScripts("https://storage.googleapis.com/workbox-cdn/releases/3.6.3/workbox-sw.js");
 
 importScripts(
-  "/darcy-demo/precache-manifest.f65967d17eaca36f41f0851bb855b48e.js"
+  "/darcy-demo/precache-manifest.ef6424ee1163ca599a250a000b5aab54.js"
 );
 
 workbox.clientsClaim();
