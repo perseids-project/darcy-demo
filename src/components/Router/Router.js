@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 import PropTypes from 'prop-types';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -10,7 +10,7 @@ import Navbar from '../Navbar';
 
 const Router = ({ basename }) => (
   <BrowserRouter basename={basename}>
-    <React.Fragment>
+    <Fragment>
       <Navbar />
       <main role="main">
         <div className="mb-4">
@@ -19,12 +19,12 @@ const Router = ({ basename }) => (
             <Route exact path="/birds/:bird" component={Bird} />
             <Route exact path="/birds/:edition/:bird" component={Bird} />
             <Route exact path="/decisions/:bird" component={Decision} />
-            <Route exact path="/home/:graph" component={Home} />
+            <Route exact path="/home/:graph?" component={Home} />
             <Route exact path="/" component={Home} />
           </Switch>
         </div>
       </main>
-    </React.Fragment>
+    </Fragment>
   </BrowserRouter>
 );
 

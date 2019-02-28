@@ -139,12 +139,8 @@ class Graph extends Component {
 }
 
 Graph.propTypes = {
-  graph: PropTypes.string,
+  graph: PropTypes.string.isRequired,
   useragent: PropTypes.string.isRequired,
-};
-
-Graph.defaultProps = {
-  graph: 'characteristics',
 };
 
 export default Graph;

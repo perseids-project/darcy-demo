@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Fragment } from 'react';
 
 import { EditionType } from '../../types';
 
@@ -7,7 +7,7 @@ import styles from './Bird.module.css';
 import aithyia from './aithyia.png';
 
 const renderFirstEdition = () => (
-  <React.Fragment>
+  <Fragment>
     <div className="row">
       <div className="col-md-8 offset-md-2 text-center">
         <h2>Aithyia (1st edition)</h2>
@@ -36,11 +36,11 @@ const renderFirstEdition = () => (
         </p>
       </div>
     </div>
-  </React.Fragment>
+  </Fragment>
 );
 
 const renderSecondEdition = () => (
-  <React.Fragment>
+  <Fragment>
     <div className="row">
       <div className="col-md-8 offset-md-2 text-center">
         <h2>Aithyia (2nd edition)</h2>
@@ -69,7 +69,7 @@ const renderSecondEdition = () => (
         </p>
       </div>
     </div>
-  </React.Fragment>
+  </Fragment>
 );
 
 const Aithyia = ({ edition }) => {

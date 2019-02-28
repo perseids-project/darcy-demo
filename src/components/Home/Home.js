@@ -1,25 +1,17 @@
-import React from 'react';
-import { NavLink } from 'react-router-dom';
-import {
-  DropdownItem,
-  DropdownMenu,
-  DropdownToggle,
-  UncontrolledDropdown,
-} from 'reactstrap';
+import React, { Fragment } from 'react';
 
-import { GraphType } from '../../types';
+import { HistoryType, GraphType } from '../../types';
 
-import { ucfirst } from '../../lib/Utils';
-
+import SearchBar from './SearchBar';
 import Hero from '../Hero';
 import Graph from '../Graph';
 
-const Home = ({ match: { params: { graph } } }) => {
+const Home = ({ history, match: { params: { graph = 'characteristics' } } }) => {
   // eslint-disable-next-line no-undef
   const { userAgent } = navigator;
 
   return (
-    <React.Fragment>
+    <Fragment>
       <Hero
         title="Birds in Ancient Mythology"
         text="Exploring Ornithology and Classics through D'Arcy Thompson's Glossary of Greek Birds"
@@ -33,11 +25,6 @@ const Home = ({ match: { params: { graph } } }) => {
             <p>
               Type search terms to populate the graph with stories!
             </p>
-            <p>
-              <small>
-                For instance, try &quot;birds&quot; and &quot;water&quot;
-              </small>
-            </p>
           </div>
         </div>
       </div>
@@ -45,23 +32,7 @@ const Home = ({ match: { params: { graph } } }) => {
       <div className="container">
         <div className="row">
           <div className="col-md-8 offset-md-2">
-            <UncontrolledDropdown>
-              <DropdownToggle caret style={{ width: '100%' }}>
-                {ucfirst(graph || 'characteristics')}
-              </DropdownToggle>
-              <DropdownMenu style={{ width: '100%' }}>
-                <DropdownItem>
-                  <NavLink className="nav-link" to="/home/characteristics">
-                    Characteristics
-                  </NavLink>
-                </DropdownItem>
-                <DropdownItem>
-                  <NavLink className="nav-link" to="/home/divinity">
-                    Divinity
-                  </NavLink>
-                </DropdownItem>
-              </DropdownMenu>
-            </UncontrolledDropdown>
+            <SearchBar graph={graph} history={history} />
           </div>
         </div>
 
@@ -71,11 +42,12 @@ const Home = ({ match: { params: { graph } } }) => {
           </div>
         </div>
       </div>
-    </React.Fragment>
+    </Fragment>
   );
 };
 
 Home.propTypes = {
+  history: HistoryType.isRequired,
   match: GraphType.isRequired,
 };
 

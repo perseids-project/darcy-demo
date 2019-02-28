@@ -1,4 +1,4 @@
-import React, { Component } from 'react';
+import React, { Component, Fragment } from 'react';
 import { NavLink } from 'react-router-dom';
 import {
   Collapse,
@@ -85,7 +85,7 @@ class Navbar extends Component {
     const { collapsed } = this.state;
 
     return (
-      <React.Fragment>
+      <Fragment>
 
         <PerseidsHeader>
           <span className="text-muted mr-auto">
@@ -103,7 +103,7 @@ class Navbar extends Component {
           </div>
         </noscript>
 
-      </React.Fragment>
+      </Fragment>
     );
   }
 }
