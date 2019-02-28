@@ -26,6 +26,7 @@ const handleChangeFactory = history => (values) => {
 const SearchBar = ({ graph, history }) => (
   <Fragment>
     <Typeahead
+      id="graph-select-input"
       key={`typeahead-${graph}`}
       labelKey={ucfirst}
       options={optionsFactory(graph)}

@@ -25,10 +25,11 @@ const renderVersionSelect = (history, bird, edition) => (
             name="editionSelect"
             className={styles.select}
             onChange={handleChangeFactory(history, bird)}
+            value={edition}
           >
 
-            <option selected={edition === '1st'}>1st</option>
-            <option selected={edition === '2nd'}>2nd</option>
+            <option>1st</option>
+            <option>2nd</option>
           </Input>
           <Label for="editionSelect" className={`ml-2 ${styles.label}`}>Edition</Label>
         </FormGroup>
