@@ -1,5 +1,7 @@
 import React, { Fragment } from 'react';
 
+import styles from './Home.module.css';
+
 import { ReactComponent as FCAMockup } from './FCA-mockup.svg';
 
 import Hero from '../Hero';
@@ -30,9 +32,9 @@ const Home = () => (
         </div>
       </div>
 
-      <div className="row pt-3">
+      <div className="row pt-4">
         <div className="col-12">
-          <FCAMockup />
+          <FCAMockup className={styles.image} />
         </div>
       </div>
     </div>

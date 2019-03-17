@@ -6,14 +6,14 @@ import { ucfirst } from '../../lib/Utils';
 
 import styles from './Decision.module.css';
 
-import aithyia from './aithyia.png';
-import glaux from './glaux.png';
-import keleos from './keleos.png';
+import { ReactComponent as Aithyia } from './aithyia.svg';
+import { ReactComponent as Glaux } from './glaux.svg';
+import { ReactComponent as Keleos } from './keleos.svg';
 
 const images = {
-  aithyia,
-  glaux,
-  keleos,
+  aithyia: <Aithyia className={styles.image} />,
+  glaux: <Glaux className={styles.image} />,
+  keleos: <Keleos className={styles.image} />,
 };
 
 const texts = {
@@ -40,7 +40,7 @@ const Decision = ({ match: { params: { bird } } }) => (
 
     <div className="row pt-3">
       <div className="col-12 col-md-8 offset-md-2 text-justify">
-        <img src={images[bird]} alt={`decision for ${bird}`} className={styles.image} />
+        {images[bird]}
       </div>
     </div>
   </div>
