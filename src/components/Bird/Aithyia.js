@@ -60,7 +60,7 @@ const renderFirstEdition = () => (
           <strong>Skua</strong>
           ,
           {' '}
-          <a href="">Lestris Parasiticus</a>
+          <a href="https://digitalcollections.nypl.org/items/510d47d9-75e1-a3d9-e040-e00a18064a99">Lestris Parasiticus</a>
           {' '}
           fails inasmuch as the latter does not dive (vide Buchholz, op.cit. pp. 112, 113) nor does it breed in the Mediterranean. The Herring Gull is abundant during the winter and breeds about the middle of April: the
           <strong>Common Tern</strong>
