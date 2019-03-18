@@ -1,6 +1,6 @@
 {
   "name": "darcy-demo",
-  "version": "0.1.0",
+  "version": "0.0.1",
   "private": true,
   "homepage": "https://perseids-project.github.io/darcy-demo/",
   "dependencies": {
@@ -19,11 +19,15 @@
     "reactstrap": "^7.1.0"
   },
   "scripts": {
+    "deploy": "yarn deploy-github && yarn deploy-perseids",
+    "predeploy-github": "yarn run build",
+    "deploy-github": "yarn run cleanup && gh-pages -d build",
+    "predeploy-perseids": "PUBLIC_URL='/darcy' yarn run build",
+    "deploy-perseids": "yarn run cleanup && gh-pages -d build -b perseids-build",
+    "cleanup": "rm -rf node_modules/gh-pages/.cache",
     "start": "react-scripts start",
     "build": "react-scripts build cp build/index.html build/404.html",
     "postbuild": "react-snap",
-    "predeploy": "yarn run build",
-    "deploy": "gh-pages -d build",
     "lint": "eslint --ext=js --ext=jsx .",
     "test": "react-scripts test",
     "eject": "react-scripts eject"
