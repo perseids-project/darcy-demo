@@ -1,8 +1,11 @@
 import React from 'react';
 import { hydrate, render } from 'react-dom';
-import './index.css';
+
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
+
+import 'typeface-arimo';
+import './index.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'perseids-react-components/build/css/index.css';
