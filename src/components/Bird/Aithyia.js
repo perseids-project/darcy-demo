@@ -24,25 +24,31 @@ const renderFirstEdition = () => (
         />
         <p>
           A poetic word, of uncertain or indefinite meaning. Probably a large Gull e.g.
+          {' '}
           <a href="https://ebird.org/species/gbbgul?siteLanguage=en_US"><em>Larus marinus</em></a>
           , the
           {' '}
           <strong>Black-backed Gull</strong>
           {' '}
           (Sundevall), or
+          {' '}
           <a href="https://ebird.org/species/hergul?siteLanguage=en_US"><em>Larus argentatus</em></a>
           , the
           <strong>Herring Gull </strong>
           (Krüper), the former being rare in Greece. Netolicka&apos;s hypothesis of the
+          {' '}
           <a href="https://ebird.org/species/commer?siteLanguage=en_US"><em>Merganser</em></a>
           {' '}
           and that of Groshans that it was a
+          {' '}
           <strong>Diver</strong>
           {' '}
           or
+          {' '}
           <a href="https://ebird.org/species/whtgre3/"><strong>Grebe</strong></a>
           {' '}
           do not tally with Aristotle
+          {' '}
           <a href="http://classics.mit.edu/Aristotle/history_anim.5.v.html">
             <em>Historia Animalium</em>
             {' '}
@@ -50,8 +56,10 @@ const renderFirstEdition = () => (
           </a>
           {' '}
           ἡ δʼ αἴθυια καὶ οἱ λάροι τίκτουσι μέν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μέν πλῆθος δύο ἢ τρία· ἀλλʼ ὁ μέν λάρος τοῦ θέρους, ἡ δʼ αἴθυια ἀρχομένου τοῦ ἔαρος &quot;The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place.&quot; Schneider&apos;s identification with the
+          {' '}
           <strong>Skua</strong>
           ,
+          {' '}
           <a href="">Lestris Parasiticus</a>
           {' '}
           fails inasmuch as the latter does not dive (vide Buchholz, op.cit. pp. 112, 113) nor does it breed in the Mediterranean. The Herring Gull is abundant during the winter and breeds about the middle of April: the
@@ -82,7 +90,7 @@ const renderFirstEdition = () => (
           {' '}
           <a href="http://data.perseus.org/citations/urn:cts:latinLit:phi0978.phi001.perseus-eng1:10.48">
             <em>Naturalis Historia</em>
-          ,10. 48
+          , 10. 48
           </a>
           . Also the same comment by Pliny at 1. 487, 8.3. Αrrian,
           {' '}
@@ -124,11 +132,11 @@ const renderFirstEdition = () => (
           1.141. The metamorphosis of Hyperippa, daughter of Munychus,
           {' '}
           <a href="https://en.wikipedia.org/wiki/Munichus">Nicander in Antoninus Liberalis, 14</a>
-          {' '}
           .
           {' '}
           <a href="https://www.theoi.com/Text/AratusPhaenomena.html">
             Aratus,
+            {' '}
             <em>Phaenomena</em>
             , 918
           </a>
@@ -136,6 +144,7 @@ const renderFirstEdition = () => (
           {' '}
           <a href="http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Theophrastus/De_signis*.html">
             Theophrastus,
+            {' '}
             <em>On Weather Signs</em>
             , 2.28
           </a>
@@ -143,6 +152,7 @@ const renderFirstEdition = () => (
           {' '}
           <a href="http://data.perseus.org/citations/urn:cts:latinLit:phi0690.phi002.perseus-eng1:1.351-1.392">
             Virgil,
+            {' '}
             <em>Georgics</em>
             {' '}
             1.362
@@ -153,7 +163,6 @@ const renderFirstEdition = () => (
           , 5 2.5. Α title or epithet of Athena, Pausanias
           {' '}
           <a href="http://data.perseus.org/citations/urn:cts:greekLit:tlg0525.tlg001.perseus-eng1:1.5.3">1.5.3</a>
-          {' '}
           ,
           {' '}
           <a href="http://data.perseus.org/citations/urn:cts:greekLit:tlg0525.tlg001.perseus-eng1:1.41.6">1.41.6</a>
