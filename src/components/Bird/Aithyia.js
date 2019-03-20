@@ -33,7 +33,8 @@ const renderFirstEdition = () => (
           (Sundevall), or
           {' '}
           <a href="https://ebird.org/species/hergul?siteLanguage=en_US"><em>Larus argentatus</em></a>
-          , the 
+          , the
+          {' '}
           <strong>Herring Gull </strong>
           (Krüper), the former being rare in Greece. Netolicka&apos;s hypothesis of the
           {' '}
@@ -62,7 +63,8 @@ const renderFirstEdition = () => (
           {' '}
           <a href="https://digitalcollections.nypl.org/items/510d47d9-75e1-a3d9-e040-e00a18064a99">Lestris Parasiticus</a>
           {' '}
-          fails inasmuch as the latter does not dive (vide Buchholz, op.cit. pp. 112, 113) nor does it breed in the Mediterranean. The Herring Gull is abundant during the winter and breeds about the middle of April: the 
+          fails inasmuch as the latter does not dive (vide Buchholz, op.cit. pp. 112, 113) nor does it breed in the Mediterranean. The Herring Gull is abundant during the winter and breeds about the middle of April: the
+          {' '}
           <strong>Common Tern</strong>
           {' '}
           (
