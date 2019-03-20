@@ -1,6 +1,7 @@
 import React, { Fragment } from 'react';
 
 import { GraphType } from '../../types';
+import { ReactComponent as FCAMockup } from './FCA-mockup.svg'
 
 import Hero from '../Hero';
 import Graph from '../Graph';
@@ -37,7 +38,7 @@ const Home = ({ match: { params: { graph = 'characteristics' } } }) => {
 
         <div className="row pt-3">
           <div className="col-12">
-            <Graph graph={graph} useragent={userAgent} />
+            <FCAMockup/>
           </div>
         </div>
       </div>
