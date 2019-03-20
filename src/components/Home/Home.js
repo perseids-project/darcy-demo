@@ -1,12 +1,11 @@
 import React, { Fragment } from 'react';
 
-import { HistoryType, GraphType } from '../../types';
+import { GraphType } from '../../types';
 
-import SearchBar from './SearchBar';
 import Hero from '../Hero';
 import Graph from '../Graph';
 
-const Home = ({ history, match: { params: { graph = 'characteristics' } } }) => {
+const Home = ({ match: { params: { graph = 'characteristics' } } }) => {
   // eslint-disable-next-line no-undef
   const { userAgent } = navigator;
 
@@ -32,7 +31,7 @@ const Home = ({ history, match: { params: { graph = 'characteristics' } } }) => 
       <div className="container">
         <div className="row">
           <div className="col-md-8 offset-md-2">
-            <SearchBar graph={graph} history={history} />
+            <input className="form-control form-control-lg" placeholder="aithyia" disabled />
           </div>
         </div>
 
@@ -47,7 +46,6 @@ const Home = ({ history, match: { params: { graph = 'characteristics' } } }) => 
 };
 
 Home.propTypes = {
-  history: HistoryType.isRequired,
   match: GraphType.isRequired,
 };
 
