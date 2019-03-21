@@ -56,7 +56,11 @@ const renderFirstEdition = () => (
             5.9, 542b
           </a>
           {' '}
-          ἡ δʼ αἴθυια καὶ οἱ λάροι τίκτουσι μέν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μέν πλῆθος δύο ἢ τρία· ἀλλʼ ὁ μέν λάρος τοῦ θέρους, ἡ δʼ αἴθυια ἀρχομένου τοῦ ἔαρος &quot;The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place.&quot; Schneider&apos;s identification with the
+          <span lang="grc">
+            ἡ δʼ αἴθυια καὶ οἱ λάροι τίκτουσι μέν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μέν πλῆθος δύο ἢ τρία· ἀλλʼ ὁ μέν λάρος τοῦ θέρους, ἡ δʼ αἴθυια ἀρχομένου τοῦ ἔαρος
+          </span>
+          {' '}
+           &quot;The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place.&quot; Schneider&apos;s identification with the
           {' '}
           <strong>Skua</strong>
           ,
@@ -79,13 +83,21 @@ const renderFirstEdition = () => (
             5. 337-353
           </a>
           {' '}
-          τὸν δὲ ἴδεν Κάδμου θυγάτηρ, καλλίσφυρος Ἰνώ Λευκοθέη, ἣ πρὶν μὲν ἔην βροτὸς αὐδήεσσα, νῦν δ᾽ ἁλὸς ἐν πελάγεσσι θεῶν ἒξ ἔμμορε τιμῆς. ἥ ῥ᾽ Ὀδυσῆ᾽ ἐλέησεν ἀλώμενον, ἄλγε᾽ ἔχοντα, αἰθυίῃ δ᾽ ἐικυῖα ποτῇ ἀνεδύσετο λίμνης. &quot;And Ino the daughter of Cadmus of the fair ankles saw him, she who used to speak with the voice of a mortal, and was now receiving the honor of the gods in the depths of the sea. She took pity on Odysseus, wandering and suffering evils, and like an aithyia she rose from the depths on the wing&quot;. Aristotle,
+          <span lang="grc">
+            τὸν δὲ ἴδεν Κάδμου θυγάτηρ, καλλίσφυρος Ἰνώ Λευκοθέη, ἣ πρὶν μὲν ἔην βροτὸς αὐδήεσσα, νῦν δ᾽ ἁλὸς ἐν πελάγεσσι θεῶν ἒξ ἔμμορε τιμῆς. ἥ ῥ᾽ Ὀδυσῆ᾽ ἐλέησεν ἀλώμενον, ἄλγε᾽ ἔχοντα, αἰθυίῃ δ᾽ ἐικυῖα ποτῇ ἀνεδύσετο λίμνης.
+          </span>
+          {' '}
+          &quot;And Ino the daughter of Cadmus of the fair ankles saw him, she who used to speak with the voice of a mortal, and was now receiving the honor of the gods in the depths of the sea. She took pity on Odysseus, wandering and suffering evils, and like an aithyia she rose from the depths on the wing&quot;. Aristotle,
           {' '}
           <a href="http://classics.mit.edu/Aristotle/history_anim.5.v.html">
             <em>Historia Animalium</em>
             , 5.9
           </a>
-          . &quot;The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place.&quot; (ἡ δʼ αἴθυια καὶ οἱ λάροι τίκτουσι μέν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μέν πλῆθος δύο ἢ τρία· ἀλλʼ ὁ μέν λάρος τοῦ θέρους, ἡ δʼ αἴθυια ἀρχομένου τοῦ ἔαρος...). See the
+          . &quot;The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place.&quot;
+          {' '}
+          <span lang="grc">
+            (ἡ δʼ αἴθυια καὶ οἱ λάροι τίκτουσι μέν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μέν πλῆθος δύο ἢ τρία· ἀλλʼ ὁ μέν λάρος τοῦ θέρους, ἡ δʼ αἴθυια ἀρχομένου τοῦ ἔαρος...). See the
+          </span>
           {' '}
           <a href="https://ebird.org/species/commer?siteLanguage=en_US"><strong>Mergus</strong></a>
           , Pliny,
@@ -101,15 +113,35 @@ const renderFirstEdition = () => (
           , 89
           </a>
           {' '}
-          names it with λάροι
+          names it with
+          <span lang="grc">
+            λάροι
+          </span>
           {' '}
           <a href="https://ebird.org/species/gbbgul?siteLanguage=en_US">&quot;the larus&quot;</a>
           {' '}
-          and κορῶναι αἱ θαλάσσιαι &quot;sea-crows&quot;. Hesychius,
+          and
+          <span lang="grc">
+            κορῶναι αἱ θαλάσσιαι
+          </span>
+          {' '}
+          &quot;sea-crows&quot;. Hesychius,
           {' '}
           <em>Lexicon</em>
           {' '}
-          renders aἴθυιαι by εἰνάλιαι κορῶναι &quot;crows that live in the sea&quot;. Frequent in the
+          renders
+          {' '}
+          <span lang="grc">
+            aἴθυιαι
+          </span>
+          {' '}
+          by
+          {' '}
+          <span lang="grc">
+            εἰνάλιαι κορῶναι
+          </span>
+          {' '}
+          &quot;crows that live in the sea&quot;. Frequent in the
           {' '}
           <em>Greek Anthology</em>
           , e.g. 6.23,
@@ -118,7 +150,13 @@ const renderFirstEdition = () => (
           ,
           {' '}
           <a href="http://data.perseus.org/citations/urn:cts:greekLit:tlg7000.tlg001.perseus-grc2:7.285">7.285</a>
-          , ὄλετο γὰρ σὺν νηὶ, τὰ δʼ ὁστέα ποῦ ποτʼ ἐκείνου πύθεται, αἰθυίαις γνωστὰ μόναις ἐνέπειν, &quot;He perished with his ship, and no one has found out where his bones lie, only the aithyiai can tell&quot;,
+          ,
+          {' '}
+          <span lang="grc">
+            ὄλετο γὰρ σὺν νηὶ, τὰ δʼ ὁστέα ποῦ ποτʼ ἐκείνου πύθεται, αἰθυίαις γνωστὰ μόναις ἐνέπειν,
+          </span>
+          {' '}
+            &quot;He perished with his ship, and no one has found out where his bones lie, only the aithyiai can tell&quot;,
           {' '}
           <a href="http://data.perseus.org/citations/urn:cts:greekLit:tlg7000.tlg001.perseus-grc2:7.374">7.374</a>
           ,
@@ -127,9 +165,25 @@ const renderFirstEdition = () => (
           . Philemon,
           {' '}
           <em>On Animals</em>
-          , says that it is hostile to πελαργός and κρέξ. Is said to be deaf and dumb in Aristophanes,
+          , says that it is hostile to
           {' '}
-          <em>Historia Animalium Epitome</em>
+          <span lang="grc">
+            πελαργός
+          </span>
+          {' '}
+          and
+          {' '}
+          <span lang="grc">
+            κρέξ.
+          </span>
+          {' '}
+          Is said to be deaf and dumb in Aristophanes,
+          {' '}
+          <em>
+            <span lang="lat">
+              Historia Animalium Epitome
+            </span>
+          </em>
           {' '}
           1.141. The metamorphosis of Hyperippa, daughter of Munychus,
           {' '}
@@ -142,7 +196,13 @@ const renderFirstEdition = () => (
             <em>Phaenomena</em>
             , 918
           </a>
-          , a sign of rain: πολλάκις δʼἀγριάδες νῆσσαι εἰναλίδιναι οἴθυιαι χερσαῖα τινάσσονται ππrερύγεσσιν &quot;often before a storm the aithyia who whirl in the sea beat their wings on the shore&quot;.
+          , a sign of rain:
+          {' '}
+          <span lang="grc">
+            πολλάκις δʼἀγριάδες νῆσσαι εἰναλίδιναι οἴθυιαι χερσαῖα τινάσσονται ππrερύγεσσιν
+          </span>
+          {' '}
+          &quot;often before a storm the aithyia who whirl in the sea beat their wings on the shore&quot;.
           {' '}
           <a href="http://penelope.uchicago.edu/Thayer/E/Roman/Texts/Theophrastus/De_signis*.html">
             Theophrastus,
@@ -171,7 +231,11 @@ const renderFirstEdition = () => (
           . Said to be the name of a horse in
           {' '}
           <a href="https://anthologia.ecrituresnumeriques.ca/entities/314">Mnasalcas, Greek Antholgogy 7.212</a>
-          . See also δύππτης, λάρoς.
+          . See also
+          {' '}
+          <span lang="grc">
+            δύππτης, λάρoς.
+          </span>
           {' '}
         </p>
       </div>

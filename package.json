@@ -4,6 +4,7 @@
   "private": true,
   "homepage": "https://perseids-project.github.io/darcy-demo/",
   "dependencies": {
+    "alpheios-embedded": "^0.6.1",
     "bootstrap": "^4.3.1",
     "eslint-config-airbnb": "^17.1.0",
     "eslint-plugin-jest": "^22.3.0",
