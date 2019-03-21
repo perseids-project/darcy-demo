@@ -4,11 +4,16 @@ import { hydrate, render } from 'react-dom';
 import App from './components/App';
 import * as serviceWorker from './serviceWorker';
 
+import 'alpheios-embedded/dist/alpheios-embedded.min.js';
+
 import 'typeface-arimo';
 import './index.css';
 
 import 'bootstrap/dist/css/bootstrap.min.css';
 import 'perseids-react-components/build/css/index.css';
+
+import 'alpheios-embedded/dist/style/style.min.css';
+import 'alpheios-embedded/dist/style/style-embedded.min.css';
 
 const rootElement = document.getElementById('root');
 

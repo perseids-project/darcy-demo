@@ -1,4 +1,4 @@
-import React from 'react';
+import React, { Component } from 'react';
 import {
   Form, FormGroup, Label, Input,
 } from 'reactstrap';
@@ -6,6 +6,8 @@ import {
 import styles from './Bird.module.css';
 
 import { HistoryType, MatchType } from '../../types';
+
+import { activate } from '../../lib/Alpheios';
 
 import Aithyia from './Aithyia';
 import Glaux from './Glaux';
@@ -61,12 +63,26 @@ const renderBird = (bird, edition) => {
   }
 };
 
-const Bird = ({ history, match: { params: { bird, edition = '2nd' } } }) => (
-  <div className="container pt-4">
-    {renderVersionSelect(history, bird, edition)}
-    {renderBird(bird, edition)}
-  </div>
-);
+class Bird extends Component {
+  componentDidMount() {
+    activate();
+  }
+
+  componentDidUpdate() {
+    activate();
+  }
+
+  render() {
+    const { history, match: { params: { bird, edition = '1st' } } } = this.props;
+
+    return (
+      <div className="container pt-4">
+        {renderVersionSelect(history, bird, edition)}
+        {renderBird(bird, edition)}
+      </div>
+    );
+  }
+}
 
 Bird.propTypes = {
   history: HistoryType.isRequired,
