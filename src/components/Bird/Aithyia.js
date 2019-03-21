@@ -25,14 +25,14 @@ const renderFirstEdition = () => (
         <p>
           A poetic word, of uncertain or indefinite meaning. Probably a large Gull e.g.
           {' '}
-          <a href="https://ebird.org/species/gbbgul?siteLanguage=en_US"><em>Larus marinus</em></a>
+          <a href="https://ebird.org/species/gbbgul?siteLanguage=en_US"><em lang="lat">Larus marinus</em></a>
           , the
           {' '}
           <strong>Black-backed Gull</strong>
           {' '}
           (Sundevall), or
           {' '}
-          <a href="https://ebird.org/species/hergul?siteLanguage=en_US"><em>Larus argentatus</em></a>
+          <a href="https://ebird.org/species/hergul?siteLanguage=en_US"><em lang="lat">Larus argentatus</em></a>
           , the
           {' '}
           <strong>Herring Gull </strong>
@@ -51,7 +51,7 @@ const renderFirstEdition = () => (
           do not tally with Aristotle
           {' '}
           <a href="http://classics.mit.edu/Aristotle/history_anim.5.v.html">
-            <em>Historia Animalium</em>
+            <em lang="lat">Historia Animalium</em>
             {' '}
             5.9, 542b
           </a>
@@ -90,7 +90,7 @@ const renderFirstEdition = () => (
           &quot;And Ino the daughter of Cadmus of the fair ankles saw him, she who used to speak with the voice of a mortal, and was now receiving the honor of the gods in the depths of the sea. She took pity on Odysseus, wandering and suffering evils, and like an aithyia she rose from the depths on the wing&quot;. Aristotle,
           {' '}
           <a href="http://classics.mit.edu/Aristotle/history_anim.5.v.html">
-            <em>Historia Animalium</em>
+            <em lang="lat">Historia Animalium</em>
             , 5.9
           </a>
           . &quot;The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place.&quot;
@@ -103,7 +103,7 @@ const renderFirstEdition = () => (
           , Pliny,
           {' '}
           <a href="http://data.perseus.org/citations/urn:cts:latinLit:phi0978.phi001.perseus-eng1:10.48">
-            <em>Naturalis Historia</em>
+            <em lang="lat">Naturalis Historia</em>
           , 10. 48
           </a>
           . Also the same comment by Pliny at 1. 487, 8.3. Αrrian,
@@ -193,7 +193,7 @@ const renderFirstEdition = () => (
           <a href="https://www.theoi.com/Text/AratusPhaenomena.html">
             Aratus,
             {' '}
-            <em>Phaenomena</em>
+            <em lang="lat">Phaenomena</em>
             , 918
           </a>
           , a sign of rain:
