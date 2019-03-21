@@ -1,14 +1,14 @@
 {
   "main.css": "/darcy-demo/static/css/main.f1873452.chunk.css",
-  "main.js": "/darcy-demo/static/js/main.300fbe51.chunk.js",
-  "main.js.map": "/darcy-demo/static/js/main.300fbe51.chunk.js.map",
+  "main.js": "/darcy-demo/static/js/main.ff4368ce.chunk.js",
+  "main.js.map": "/darcy-demo/static/js/main.ff4368ce.chunk.js.map",
   "runtime~main.js": "/darcy-demo/static/js/runtime~main.7918b6b3.js",
   "runtime~main.js.map": "/darcy-demo/static/js/runtime~main.7918b6b3.js.map",
   "static/css/2.f090485c.chunk.css": "/darcy-demo/static/css/2.f090485c.chunk.css",
   "static/js/2.30ac99b6.chunk.js": "/darcy-demo/static/js/2.30ac99b6.chunk.js",
   "static/js/2.30ac99b6.chunk.js.map": "/darcy-demo/static/js/2.30ac99b6.chunk.js.map",
   "index.html": "/darcy-demo/index.html",
-  "precache-manifest.67303de77175cea39c92518e08c7b36e.js": "/darcy-demo/precache-manifest.67303de77175cea39c92518e08c7b36e.js",
+  "precache-manifest.7b8b560fcbcb75565938b89670d40d5d.js": "/darcy-demo/precache-manifest.7b8b560fcbcb75565938b89670d40d5d.js",
   "service-worker.js": "/darcy-demo/service-worker.js",
   "static/css/2.f090485c.chunk.css.map": "/darcy-demo/static/css/2.f090485c.chunk.css.map",
   "static/css/main.f1873452.chunk.css.map": "/darcy-demo/static/css/main.f1873452.chunk.css.map",
@@ -17,8 +17,8 @@
   "static/media/aithyia.png": "/darcy-demo/static/media/aithyia.a33ed7c4.png",
   "static/media/index.css": "/darcy-demo/static/media/arimo-latin-700italic.505d2fd4.woff",
   "static/media/Hero.module.css": "/darcy-demo/static/media/birds.bb83941b.jpg",
+  "static/media/glaux.51775c62.svg": "/darcy-demo/static/media/glaux.51775c62.svg",
   "static/media/glaux.png": "/darcy-demo/static/media/glaux.7d8e9ca5.png",
-  "static/media/glaux.7da9ddf7.svg": "/darcy-demo/static/media/glaux.7da9ddf7.svg",
   "static/media/keleos.png": "/darcy-demo/static/media/keleos.0de84e76.png",
-  "static/media/keleos.7da9ddf7.svg": "/darcy-demo/static/media/keleos.7da9ddf7.svg"
+  "static/media/keleos.b3d34c73.svg": "/darcy-demo/static/media/keleos.b3d34c73.svg"
 }
