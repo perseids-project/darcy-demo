@@ -4,7 +4,8 @@ import { EditionType } from '../../types';
 
 import styles from './Bird.module.css';
 
-import aithyia from './aithyia.png';
+import aithyia1 from './aithyia-1.jpg';
+import aithyia2 from './aithyia-2.jpg';
 
 const renderFirstEdition = () => (
   <Fragment>
@@ -17,11 +18,18 @@ const renderFirstEdition = () => (
 
     <div className="row pt-3">
       <div className="col-12 col-md-8 offset-md-2 text-justify">
-        <img
-          src={aithyia}
-          alt="aithyia"
-          className={`ml-3 mb-1 mt-1 ${styles.image}`}
-        />
+        <a
+          title="Kulac [CC BY-SA 2.5 (https://creativecommons.org/licenses/by-sa/2.5)], via Wikimedia Commons"
+          href="https://commons.wikimedia.org/wiki/File:Larus_argentatus01.jpg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={aithyia1}
+            alt="Larus argentatus"
+            className={`ml-3 mb-1 mt-1 ${styles.image}`}
+          />
+        </a>
         <p>
           A poetic word, of uncertain or indefinite meaning. Probably a large Gull e.g.
           {' '}
@@ -255,11 +263,18 @@ const renderSecondEdition = () => (
 
     <div className="row pt-3">
       <div className="col-12 col-md-8 offset-md-2 text-justify">
-        <img
-          src={aithyia}
-          alt="aithyia"
-          className={`ml-3 mb-1 mt-1 ${styles.image}`}
-        />
+        <a
+          title="Telegro [CC BY-SA 4.0 (https://creativecommons.org/licenses/by-sa/4.0)], via Wikimedia Commons"
+          href="https://commons.wikimedia.org/wiki/File:Scopoli%27s_Shearwater.jpg"
+          target="_blank"
+          rel="noopener noreferrer"
+        >
+          <img
+            src={aithyia2}
+            alt="Scopoli&#039;s Shearwater"
+            className={`ml-3 mb-1 mt-1 ${styles.image}`}
+          />
+        </a>
         <p>
           A seabird, especially a
           {' '}
