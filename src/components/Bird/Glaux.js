@@ -5,7 +5,6 @@ import { EditionType } from '../../types';
 import styles from './Bird.module.css';
 
 import glaux1 from './glaux-1.png';
-import glaux2 from './glaux-2.png';
 
 const renderFirstEdition = () => (
   <Fragment>
@@ -49,7 +48,7 @@ const renderSecondEdition = () => (
     <div className="row pt-3">
       <div className="col-12 col-md-8 offset-md-2 text-justify">
         <img
-          src={glaux2}
+          src={glaux1}
           alt="glaux"
           className={`ml-3 mb-1 mt-1 ${styles.image}`}
         />
