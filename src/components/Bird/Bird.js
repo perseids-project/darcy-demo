@@ -32,6 +32,7 @@ const renderVersionSelect = (history, bird, edition) => (
 
             <option>1st</option>
             <option>2nd</option>
+            <option>diff</option>
           </Input>
           <Label for="editionSelect" className={`ml-2 ${styles.label}`}>Edition</Label>
         </FormGroup>

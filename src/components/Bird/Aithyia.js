@@ -681,12 +681,115 @@ const renderSecondEdition = () => (
   </Fragment>
 );
 
+
+const renderDiff = () => (
+  <Fragment>
+    <div className="row">
+      <div className="col-md-8 offset-md-2 text-center">
+        <h2>Aithyia (diff)</h2>
+        <h6 lang="grc">αἴθυια</h6>
+      </div>
+    </div>
+
+    <div className="row pt-3">
+      <div className="col-12 col-md-8 offset-md-2 text-justify">
+        <p className={styles.removed}>
+          <strong>-</strong>
+          {' '}
+          A poetic word, of uncertain or indefinite meaning. Probably a large Gull e.g. Larus marinus, the Black-backed Gull (Sundevall), or Larus argentatus, the Herring Gull (Krüper), the former being rare in Greece. Netolicka&apos;s hypothesis of the Merganser and that of Groshans that it was a Diver or Grebe do not tally with Aristotle Historia Animalium 5.9, 542b ἡ δʼ αἴθυια καὶ οἱ λάροι τίκτουσι μέν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μέν πλῆθος δύο ἢ τρία· ἀλλʼ ὁ μέν λάρος τοῦ θέρους, ἡ δʼ αἴθυια ἀρχομένου τοῦ ἔαρος &quot;The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place.&quot; Schneider&apos;s identification with the Skua, Lestris Parasiticus fails inasmuch as the latter does not dive (vide Buchholz, op.cit. pp. 112, 113) nor does it breed in the Mediterranean. The Herring Gull is abundant during the winter and breeds about the middle of April: the Common Tern (Sterna anglica) lays about the same time as the Herring gull (Krüper) but in the lagoons and not on the cliffs.
+        </p>
+
+        <p className={styles.added}>
+          <strong>+</strong>
+          {' '}
+          A seabird, especially a Shearwater, Lat. mergus. The Great Shearwater, Puffinus Kuhli (Boie), Modern Greek: ἀετένης, μῆχος, μοῖχος, μῦχος: Italian margun, berta, fallante, aipú, etc.; and the Little or Manx Shearwater, Puffinus anglorum, Will. (or its Mediterranean form Puffinus Yelkuan): but the name, like mergus, and like Ital. margun, has at times a vaguer or a wider meaning. The name Shearwater harks back tio Sir Thomas Browne’s Norfolk Birds (1671), and to Willughby’s Ornithologia (1676, p. 252): Willughby having had it, with a description and drawing of the bird, from Browne. See Διομήδιοι ὄρνιθες. See also s.vv. ἀνοπαῖα, δύπτης, ἐρωδιός, λάρος, πώυγξ, φώυξ.
+        </p>
+
+        <p className={styles.removed}>
+          <strong>-</strong>
+          {' '}
+          Odyssey 5. 337-353 τὸν δὲ ἴδεν Κάδμου θυγάτηρ, καλλίσφυρος Ἰνώ Λευκοθέη, ἣ πρὶν μὲν ἔην βροτὸς αὐδήεσσα, νῦν δ᾽ ἁλὸς ἐν πελάγεσσι θεῶν ἒξ ἔμμορε τιμῆς. ἥ ῥ᾽ Ὀδυσῆ᾽ ἐλέησεν ἀλώμενον, ἄλγε᾽ ἔχοντα, αἰθυίῃ δ᾽ ἐικυῖα ποτῇ ἀνεδύσετο λίμνης. &quot;And Ino the daughter of Cadmus of the fair ankles saw him, she who used to speak with the voice of a mortal, and was now receiving the honor of the gods in the depths of the sea. She took pity on Odysseus, wandering and suffering evils, and like an aithyia she rose from the depths on the wing&quot;. Aristotle, Historia Animalium, 5.9. &quot;The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place.&quot; (ἡ δʼ αἴθυια καὶ οἱ λάροι τίκτουσι μέν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μέν πλῆθος δύο ἢ τρία· ἀλλʼ ὁ μέν λάρος τοῦ θέρους, ἡ δʼ αἴθυια ἀρχομένου τοῦ ἔαρος...). See the Mergus, Pliny, Naturalis Historia, 10. 48. Also the same comment by Pliny at 1. 487, 8.3. Αrrian, Periplus, 89 names it withλάροι &quot;the larus&quot; andκορῶναι αἱ θαλάσσιαι &quot;sea-crows&quot;. Hesychius, Lexicon renders aἴθυιαι by εἰνάλιαι κορῶναι &quot;crows that live in the sea&quot;. Frequent in the Greek Anthology, e.g. 6.23, 7.212 (Mnasalcas), 7.285, ὄλετο γὰρ σὺν νηὶ, τὰ δʼ ὁστέα ποῦ ποτʼ ἐκείνου πύθεται, αἰθυίαις γνωστὰ μόναις ἐνέπειν, &quot;He perished with his ship, and no one has found out where his bones lie, only the aithyiai can tell&quot;, 7.374, 10.8. Philemon, On Animals, says that it is hostile to πελαργός and κρέξ. Is said to be deaf and dumb in Aristophanes, Historia Animalium Epitome 1.141. The metamorphosis of Hyperippa, daughter of Munychus, Nicander in Antoninus Liberalis, 14. Aratus, Phaenomena, 918, a sign of rain: πολλάκις δʼἀγριάδες νῆσσαι εἰναλίδιναι οἴθυιαι χερσαῖα τινάσσονται ππrερύγεσσιν &quot;often before a storm the aithyia who whirl in the sea beat their wings on the shore&quot;. Theophrastus, On Weather Signs, 2.28, Virgil, Georgics 1.362. Α lοng but unsatisfactory description in Dionysius On Birds, 5 2.5. Α title or epithet of Athena, Pausanias 1.5.3, 1.41.6. Said to be the name of a horse in Mnasalcas, Greek Antholgogy 7.212. See also δύππτης, λάρoς.
+        </p>
+
+        <p className={styles.added}>
+          <strong>+</strong>
+          {' '}
+          αἴθυια &quot;aithyia&quot; is not the Blackbacked Gull (as Sundevall takes it to be), for that bird is rare in the Mediterranean; nor the Skua (as Schneider says), which does not dive, nor does it breed in the Mediterranean; nor, assuredly, is it a Diver or a Grebe (as Groshans suggests). αἴθυια &quot;aithyia&quot; corresponds in general to Latin mergus; the South Italian aipú is probably a survival of the old Greek word, and is used (according to Giglioli) sometimes of a Shearwater and sometimes of a Gull. On Shearwaters in Greece see (int. al.) Krüper, Die Sturmvögel der Cykladen, Jl. f. Orn., 1863, pp. 327-338.
+        </p>
+
+        <p className={styles.added}>
+          <strong>+</strong>
+          {' '}
+          Coray (Ἅτ. iv, p. 212) gives μέννουι, ἡ αἴθυια (=mergus) &quot;mennoui: the aithyia&quot;, βαρβάρως πρῶ μέργια, ἔπειτα τρὶς βαρβάρως μέννοια: &quot;mergia is a barbarism, but mennoia is three times as barbaric&quot;. In Hesychius, αἴθυια &quot;aithyia&quot; is glossed by κορῶναι εἰνάλαι &quot;sea-crows&quot; q.v.), i.e. the Little or Manx Shearwater. Mentioned in Arrian’s Periplus 89, along with λάροι &quot;laroi&quot; and κορῶναι αἱ θαλάσσιοι &quot;sea-crows&quot;, in a description of the birds at the tomb of Achilles. Mentioned with κολυμβίς &quot;kolymbis&quot; in Aristotle, Historia Animalium 5.9; and with λάρος ὁ λευκός, κέπφος, and χαραδριός &quot;the white larus, the kepphus, and the charadrius&quot;, at 8. 593 b 14. Cyranides αἴθυια &quot;aithyia&quot;: πτηνὸν θαλάσσιον ἀκόρεστον, πᾶσι γνωστόν, &quot;an insatiable seabird, known to all&quot;. A bird of great voracity, Dionysius, On Birds, 2.6 αἱ δ’ αἴθυιαι τροφῆς μὲν άεὶ πλείστης ὀρέγονται, καὶ οὐκ ἄν ποτε λιμώττονται, &quot;the aithyiai are always reaching out for plentiful food, and they never go hungry&quot;: cf. Pliny Natural History 11.79 insatiabilia animalium… ut… inter aves mergis, &quot;the insatiability of animals... as among the birds, that of the mergus&quot;; Ovid, Metamorphoses 11.753 spatiosum in guttura mergum, &quot;the throat of an elongated mergus&quot;. The flesh is useless or nauseous, Galen, On the Powers of Simple Remedies 11; cf. Horace Satires, 2.2.51 si quis nunc mergos suaves edixerit assos, &quot;now if someone declares that roasted mergus is delicious&quot;, etc. Its liver as a medicine, Dioscorides, De Materia Medica, 2.55 (Wellmann).
+        </p>
+
+        <p className={styles.added}>
+          <strong>+</strong>
+          {' '}
+          Mariners in a storm are said to beἴκελοι κολυμβίσιν αἰθυίῃσιν, &quot;like kolymbides or aithyiai, Aratus, Phaenomena, 296: cf. Apollonius Rhodius, Argonautica, 4.966 ἐνθ’ αἱ μὲν κατὰ βένθος ἀλίγκιαι αἰθυίῃσι | δῦνον, &quot;and there some were diving into the depths like aithyai&quot;. Frequent in the Greek Anthology, especially in connexion with shipwreck, e.g. Glaucus 7.285 ὤλετο γὰρ σὺν νηΐ, τὰ δ’ ὄστεα πού ποτ’ ἐκείνου | πὺθεται, αἰθυίας γνωστὰ μόναις ἐνέπειν, &quot;He perished with his ship, and no one has found out where his bones lie, only the aithyiai can tell&quot;: cf. Marcus Argentarius 7.374; Leonidas of Tarentum 7. 295 τὸν αἰθυίης πλείονα νηξάμενον, &quot;he who swam on the sea more than an aithyia&quot;: Callimachus Epigram 59 αἰθυίῃ δ’ ἶσα θαλασσοπορεῖ:, &quot;like an aithyia he rides the sea&quot; Greek Anthology 6.23 σήραγγος ἁλίκτυπον ὃς τόδε ναίεις | εὐστιβὲς αἰθυίαις ἰχθυβόλοισι λέπας &quot;you who dwell in this sea-beaten cave, which gives a stable rock to fish-catching aithyiai&quot;: Callimachus, Hymn to Delos, 12 αἰθυίης καὶ μᾶλλον ἐπίδρομον ἤεπερ ἵπποις &quot;is a better runway for aithyiai than for horses&quot;.
+        </p>
+
+        <p className={styles.added}>
+          <strong>+</strong>
+          {' '}
+          Among Latin poetical references, see Lucretius De Rerum Natura 5.1079 ossifragae mergeique, marinis fluctibus in salso victum vitamque petenteis, longe alias alio iaciunt in tempora voces &quot;ospreys and mergi, who seek their food and life in the briny flow, cry in much different ways depending on the circumstances&quot;. But Ovid (Metamorphoses 11.793) has a different bird in mind: Fecit amore maciem: longa internodia crurum, longa manet cervix, caput est a corpore longe; aequora amat, nomenque tenet quia mergitur illo &quot;love emaciated him, and made his legs long between the joints, his neck remains long, and his head is far from his body; he likes the water, and he has this name [mergus] because he dives into it.
+        </p>
+
+        <p className={styles.added}>
+          <strong>+</strong>
+          {' '}
+          A sign of storm; Aratus,Phaenomena, 918 πολλάκι δ’ ἀγριάδες νῆσσαι ἢ εἰναιλίδιναι | αἵθυιαι χερσαῖα τινάσσονται πτερύγεσσιν &quot;often before a storm the aithyia who whirl in the sea beat their wings on the shore&quot;: cf. Theophrastus, On Weather Signs, 2.28; Aelian, History of Animals, 7.7; Lucretius, De Rerum Natura, 5.1083; also Vergil, Georgics, 1.361 cum medio celeres revolant ex aequore mergi, clamoremque ferunt ad littora &quot;when the swift mergi fly out of the middle of the water and they bring their clamor to the shore&quot;; Pliny 18.87 [praesagiunt ventum] mergi maria aut stagna fugientes &quot;the mergi prophesize wind when they leave either the sea or the marshes&quot;.
+        </p>
+
+        <p className={styles.added}>
+          <strong>+</strong>
+          {' '}
+          Most of the above citations fit the Shearwater fairly well. On the other hand the Shearwater nests underground and lays but one egg, which does not tally with Aristotle, Historia Animalium, 5.9 (a passage, however, which appears to be either spurious or corrupt) ἡ δ’ αἴθυια καὶ οἱ λάροι τίκτουσι μὲν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μὲν πλῆθος δύο ἢ τρία: ἀλλ’ ὁ μὲν λάρος τοῦ θέρους, ἡ δ’ αἴθυια ἀρχομένου τοῦ ἔαρος &quot;The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring.&quot; [cf. the same comment by Pliny, The Natural History, 10.48]
+        </p>
+
+        <p className={styles.added}>
+          <strong>+</strong>
+          {' '}
+          αἴθυια is said to be deaf and dumb by Aristophanes, Historia Animalium Epitome, 1.14, and by Dionysius, On Birds,καὶ μόνας ταύτας ἐκ πάντων φασὶ τῶν πτηνῶν μήτε ἀφιέναι φωνὴν μήτε ἀκούειν δύνασθαι &quot;and it is said that these birds are the only volatiles that cannot emit a sound and cannot hear&quot;: and in general the Shearwaters are silent birds, save that certain species, such as the Little Shearwater, are clamorous by night in the breeding season.
+        </p>
+
+        <p className={styles.added}>
+          <strong>+</strong>
+          {' '}
+          Myth and Legend. – The metamorphosis of Aesacus, son of Priam, into the bird Mergus, Ovid, Metamorphoses, 11.783 ff.; and of Hyperippa, daughter of Munychus, into the bird αἴθυια, Antoninus Liberalis, Metamorphoses, 14.
+        </p>
+
+        <p className={styles.added}>
+          <strong>+</strong>
+          {' '}
+          Associated with Athene (cf. ἀνοπαῖα), Odyssey 5.337 αἰθυίῃ δ’ εἰκυῖα ποτῆ ἀνεδύσατο λίμνης, and 353 ἂψ ἐς πόντον ἐδύσατο, | αἰθυίῃ εἰκυῖα &quot;And Ino the daughter of Cadmus of the fair ankles saw him, she who used to speak with the voice of a mortal, and was now receiving the honor of the gods in the depths of the sea. She took pity on Odysseus, wandering and suffering evils, and like an aithyia she rose from the depths on the wing&quot;. A title or epithet of Athene, Pausanias 1.5.3, 1.41. 6; Lycophron, Alexandra, 359, αἴθυια κόρη &quot;the maiden aithyia&quot;: especially at Megara, Hesychius s.v. ἐν δ’ Αἴθυια.
+        </p>
+
+        <p className={styles.added}>
+          <strong>+</strong>
+          {' '}
+          Hostile toπελαργός &quot;pelargus&quot;, and toκρέξ &quot;krex&quot;, Aelian, History of Animals, 5.5, Philemon 680. Its gall a poison to the hedgehog, Aelian, History of Animals, 6.46. The magical properties of its eggs and blood, Cyranides 3 a.
+        </p>
+
+        <p className={styles.added}>
+          <strong>+</strong>
+          {' '}
+          Fable. –νυκτερὶς καὶ βάτος καὶ αἴθυια &quot;the bat, the fish, and the aithyia&quot;, Aesopica, 306 (ὁ μῦθος δηλοῖ ὅτι περὶ ἃ σπουδάζομεν τούτοις ἐς ὕστερον περιπίπτομεν &quot;the story shows that we fall from the very things which we busy ourselves with&quot;).
+        </p>
+
+      </div>
+    </div>
+  </Fragment>
+);
+
 const Aithyia = ({ edition }) => {
   switch (edition) {
     case '1st':
       return renderFirstEdition();
     case '2nd':
       return renderSecondEdition();
+    case 'diff':
+      return renderDiff();
     default:
       return (
         <h2>

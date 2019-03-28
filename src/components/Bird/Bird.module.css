@@ -16,6 +16,14 @@
   vertical-align: middle !important;
 }
 
+.added {
+  background-color: #e6ffed;
+}
+
+.removed {
+  background-color: #ffeef0;
+}
+
 .image {
   width: 100%;
   height: auto;
