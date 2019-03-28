@@ -37,9 +37,9 @@ const renderVersionSelect = (history, bird, edition) => (
           </Input>
           <Label for="editionSelect" className={`ml-2 ${styles.label}`}>Edition</Label>
           <noscript>
-            <Link to={`/birds/${bird}/1st`}>1st Edition</Link>
-            <Link to={`/birds/${bird}/2nd`}>2nd Edition</Link>
-            <Link to={`/birds/${bird}/diff`}>View diff</Link>
+            <Link to={`/birds/1st/${bird}`}>1st Edition</Link>
+            <Link to={`/birds/2nd/${bird}`}>2nd Edition</Link>
+            <Link to={`/birds/diff/${bird}`}>View diff</Link>
           </noscript>
         </FormGroup>
       </Form>
