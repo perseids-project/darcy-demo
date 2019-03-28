@@ -1,4 +1,5 @@
 import React, { Component } from 'react';
+import { Link } from 'react-router-dom';
 import {
   Form, FormGroup, Label, Input,
 } from 'reactstrap';
@@ -35,6 +36,11 @@ const renderVersionSelect = (history, bird, edition) => (
             <option>diff</option>
           </Input>
           <Label for="editionSelect" className={`ml-2 ${styles.label}`}>Edition</Label>
+          <noscript>
+            <Link to={`/birds/${bird}/1st`}>1st Edition</Link>
+            <Link to={`/birds/${bird}/2nd`}>2nd Edition</Link>
+            <Link to={`/birds/${bird}/diff`}>View diff</Link>
+          </noscript>
         </FormGroup>
       </Form>
     </div>
