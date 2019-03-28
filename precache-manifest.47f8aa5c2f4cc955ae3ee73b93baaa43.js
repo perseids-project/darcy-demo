@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "c1c35e32769e78090db0",
+    "revision": "96a5df132e93be86be67",
     "url": "/darcy-demo/static/css/main.629b255a.chunk.css"
   },
   {
-    "revision": "c1c35e32769e78090db0",
-    "url": "/darcy-demo/static/js/main.c1c35e32.chunk.js"
+    "revision": "96a5df132e93be86be67",
+    "url": "/darcy-demo/static/js/main.96a5df13.chunk.js"
   },
   {
     "revision": "7918b6b39ac504e2dd13",
@@ -40,32 +40,32 @@ self.__precacheManifest = [
     "url": "/darcy-demo/static/media/arimo-latin-700.1383e57e.woff2"
   },
   {
-    "revision": "6d15a1bb418e9f34d0606fd2d568b429",
-    "url": "/darcy-demo/static/media/arimo-latin-400.6d15a1bb.woff"
-  },
-  {
     "revision": "01337cbf8cb58f21e1411c4c9ae23c87",
     "url": "/darcy-demo/static/media/arimo-latin-400.01337cbf.woff2"
-  },
-  {
-    "revision": "cc7569b29c944be9246be8c439ff9da4",
-    "url": "/darcy-demo/static/media/arimo-latin-400italic.cc7569b2.woff2"
   },
   {
     "revision": "422dc78ce039a6a6496e2cbb0ed62eb4",
     "url": "/darcy-demo/static/media/arimo-latin-400italic.422dc78c.woff"
   },
   {
+    "revision": "6d15a1bb418e9f34d0606fd2d568b429",
+    "url": "/darcy-demo/static/media/arimo-latin-400.6d15a1bb.woff"
+  },
+  {
     "revision": "2e7c6c6f35ee42fbd1264b169410c9bb",
     "url": "/darcy-demo/static/media/arimo-latin-700italic.2e7c6c6f.woff2"
   },
   {
-    "revision": "e97a2f2baf901ad2d2c3d7649bffdd22",
-    "url": "/darcy-demo/static/media/arimo-latin-700.e97a2f2b.woff"
-  },
-  {
     "revision": "505d2fd4a9acc32cba0c56d7a96e6ed1",
     "url": "/darcy-demo/static/media/arimo-latin-700italic.505d2fd4.woff"
+  },
+  {
+    "revision": "cc7569b29c944be9246be8c439ff9da4",
+    "url": "/darcy-demo/static/media/arimo-latin-400italic.cc7569b2.woff2"
+  },
+  {
+    "revision": "e97a2f2baf901ad2d2c3d7649bffdd22",
+    "url": "/darcy-demo/static/media/arimo-latin-700.e97a2f2b.woff"
   },
   {
     "revision": "7da9ddf753feceae3ac4c2bdf02a106d",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/darcy-demo/static/media/FCA-mockup.fdaf2524.svg"
   },
   {
-    "revision": "e5d5b2d6fb39a542fec25f1e3ad0aaa1",
+    "revision": "59ab6c35a32692df9796b8276b8583fd",
     "url": "/darcy-demo/index.html"
   }
 ];
