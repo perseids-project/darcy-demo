@@ -1,11 +1,11 @@
 self.__precacheManifest = [
   {
-    "revision": "bf4da155cf6c9fd92dd3",
+    "revision": "dbdbb75c812906f2653e",
     "url": "/darcy/static/css/main.c7383ac2.chunk.css"
   },
   {
-    "revision": "bf4da155cf6c9fd92dd3",
-    "url": "/darcy/static/js/main.bf4da155.chunk.js"
+    "revision": "dbdbb75c812906f2653e",
+    "url": "/darcy/static/js/main.dbdbb75c.chunk.js"
   },
   {
     "revision": "e9a5366f9106899c8fc2",
@@ -60,12 +60,12 @@ self.__precacheManifest = [
     "url": "/darcy/static/media/arimo-latin-700.e97a2f2b.woff"
   },
   {
-    "revision": "2e7c6c6f35ee42fbd1264b169410c9bb",
-    "url": "/darcy/static/media/arimo-latin-700italic.2e7c6c6f.woff2"
-  },
-  {
     "revision": "505d2fd4a9acc32cba0c56d7a96e6ed1",
     "url": "/darcy/static/media/arimo-latin-700italic.505d2fd4.woff"
+  },
+  {
+    "revision": "2e7c6c6f35ee42fbd1264b169410c9bb",
+    "url": "/darcy/static/media/arimo-latin-700italic.2e7c6c6f.woff2"
   },
   {
     "revision": "7da9ddf753feceae3ac4c2bdf02a106d",
@@ -84,7 +84,7 @@ self.__precacheManifest = [
     "url": "/darcy/static/media/FCA-mockup.fdaf2524.svg"
   },
   {
-    "revision": "22045b9d74b15c2d8410839227494cf4",
+    "revision": "b0af98adf1b77c41ef5daf7a3db197b4",
     "url": "/darcy/index.html"
   }
 ];
