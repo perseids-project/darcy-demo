@@ -1,14 +1,14 @@
 {
   "main.css": "/darcy-demo/static/css/main.7a9c790f.chunk.css",
-  "main.js": "/darcy-demo/static/js/main.3959b085.chunk.js",
-  "main.js.map": "/darcy-demo/static/js/main.3959b085.chunk.js.map",
+  "main.js": "/darcy-demo/static/js/main.d3b0ef7f.chunk.js",
+  "main.js.map": "/darcy-demo/static/js/main.d3b0ef7f.chunk.js.map",
   "runtime~main.js": "/darcy-demo/static/js/runtime~main.7918b6b3.js",
   "runtime~main.js.map": "/darcy-demo/static/js/runtime~main.7918b6b3.js.map",
   "static/css/2.1ee08907.chunk.css": "/darcy-demo/static/css/2.1ee08907.chunk.css",
-  "static/js/2.1ea8deb1.chunk.js": "/darcy-demo/static/js/2.1ea8deb1.chunk.js",
-  "static/js/2.1ea8deb1.chunk.js.map": "/darcy-demo/static/js/2.1ea8deb1.chunk.js.map",
+  "static/js/2.257fbc0b.chunk.js": "/darcy-demo/static/js/2.257fbc0b.chunk.js",
+  "static/js/2.257fbc0b.chunk.js.map": "/darcy-demo/static/js/2.257fbc0b.chunk.js.map",
   "index.html": "/darcy-demo/index.html",
-  "precache-manifest.a0997f9add3263af23eb36624a65f444.js": "/darcy-demo/precache-manifest.a0997f9add3263af23eb36624a65f444.js",
+  "precache-manifest.87f3ca2c7108e0d7f7a39842b679b7ea.js": "/darcy-demo/precache-manifest.87f3ca2c7108e0d7f7a39842b679b7ea.js",
   "service-worker.js": "/darcy-demo/service-worker.js",
   "static/css/2.1ee08907.chunk.css.map": "/darcy-demo/static/css/2.1ee08907.chunk.css.map",
   "static/css/main.7a9c790f.chunk.css.map": "/darcy-demo/static/css/main.7a9c790f.chunk.css.map",
@@ -18,7 +18,6 @@
   "static/media/aithyia.7da9ddf7.svg": "/darcy-demo/static/media/aithyia.7da9ddf7.svg",
   "static/media/index.css": "/darcy-demo/static/media/arimo-latin-700italic.505d2fd4.woff",
   "static/media/Hero.module.css": "/darcy-demo/static/media/birds.bb83941b.jpg",
-  "static/media/glaux-1.png": "/darcy-demo/static/media/glaux-1.a33ed7c4.png",
-  "static/media/glaux-2.png": "/darcy-demo/static/media/glaux-2.7d8e9ca5.png",
+  "static/media/glaux-1.png": "/darcy-demo/static/media/glaux-1.7d8e9ca5.png",
   "static/media/glaux.b3d34c73.svg": "/darcy-demo/static/media/glaux.b3d34c73.svg"
 }
