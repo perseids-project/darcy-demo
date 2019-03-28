@@ -4,7 +4,7 @@ Proof of concept site for the digitization of D'Arcy Thompson's *Glossary of Gre
 
 ## Try it Out
 
-[https://perseids-project.github.io/darcy-demo/](https://perseids-project.github.io/darcy-demo/)
+[https://apps.perseids.org/darcy/](https://apps.perseids.org/darcy/)
 
 ## Installation
 
@@ -35,3 +35,7 @@ If you want to deploy it at `www.example.com/birds` then run
 ## Deploying a new version to github.io
 
 `yarn deploy`
+
+## Deploying a new version to Perseids
+
+`yarn deploy-perseids`
