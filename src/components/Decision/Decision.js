@@ -8,18 +8,15 @@ import styles from './Decision.module.css';
 
 import { ReactComponent as Aithyia } from './aithyia.svg';
 import { ReactComponent as Glaux } from './glaux.svg';
-import { ReactComponent as Keleos } from './keleos.svg';
 
 const images = {
   aithyia: <Aithyia className={styles.image} />,
   glaux: <Glaux className={styles.image} />,
-  keleos: <Keleos className={styles.image} />,
 };
 
 const texts = {
   aithyia: "This chart shows the decision-making process D'Arcy Thompson followed in matching the Greek word aithyia with a bird species. The chart outlines the characteristics associated with aithyia in ancient sources  compared with the various hypotheses proposed by Thompson and other scholars. The decision for each edition is outlined in black.",
   glaux: 'Sed quis neque nec arcu gravida commodo. Nullam posuere vestibulum maximus. Praesent congue malesuada pulvinar. Mauris cursus leo neque, ultricies viverra metus fermentum non. Nulla eget tortor ipsum. Duis consequat justo quis mauris placerat pharetra. Vivamus sodales leo et ex blandit, vel vulputate velit dignissim.',
-  keleos: 'Mauris in nunc et dolor consequat pretium. Fusce elit orci, sodales vitae arcu non, ornare faucibus lorem. Maecenas vitae lacinia urna. Praesent quis metus vitae ante dapibus tempus in ornare elit.',
 };
 
 const Decision = ({ match: { params: { bird } } }) => (

@@ -34,11 +34,6 @@ const renderCollapse = collapsed => (
               Glaux
             </NavLink>
           </DropdownItem>
-          <DropdownItem>
-            <NavLink exact className="nav-link" to="/birds/keleos">
-              Keleos
-            </NavLink>
-          </DropdownItem>
         </DropdownMenu>
       </UncontrolledDropdown>
       <UncontrolledDropdown nav inNavbar>
@@ -54,11 +49,6 @@ const renderCollapse = collapsed => (
           <DropdownItem>
             <NavLink exact className="nav-link" to="/decisions/glaux">
               Glaux
-            </NavLink>
-          </DropdownItem>
-          <DropdownItem>
-            <NavLink exact className="nav-link" to="/decisions/keleos">
-              Keleos
             </NavLink>
           </DropdownItem>
         </DropdownMenu>

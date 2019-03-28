@@ -12,7 +12,6 @@ import { activate } from '../../lib/Alpheios';
 
 import Aithyia from './Aithyia';
 import Glaux from './Glaux';
-import Keleos from './Keleos';
 
 const handleChangeFactory = (history, bird) => (event) => {
   history.push(`/birds/${event.target.value}/${bird}`);
@@ -53,8 +52,6 @@ const renderBird = (bird, edition) => {
       return <Aithyia edition={edition} />;
     case 'glaux':
       return <Glaux edition={edition} />;
-    case 'keleos':
-      return <Keleos edition={edition} />;
     default:
       return (
         <div className="container pt-4">
