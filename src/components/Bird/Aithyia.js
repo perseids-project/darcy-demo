@@ -122,14 +122,14 @@ const renderFirstEdition = () => (
           , 89
           </a>
           {' '}
-          names it with
+          names it with 
           <span lang="grc">
             λάροι
           </span>
           {' '}
           <a href="https://ebird.org/species/gbbgul?siteLanguage=en_US">&quot;the larus&quot;</a>
           {' '}
-          and
+          and 
           <span lang="grc">
             κορῶναι αἱ θαλάσσιαι
           </span>
