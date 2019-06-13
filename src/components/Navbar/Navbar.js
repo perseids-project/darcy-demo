@@ -58,6 +58,11 @@ const renderCollapse = collapsed => (
           About
         </NavLink>
       </li>
+      <li className="nav-item">
+        <a className="nav-link" href="https://sites.tufts.edu/ancientbirds/">
+          Learn more
+        </a>
+      </li>
     </ul>
   </Collapse>
 );
