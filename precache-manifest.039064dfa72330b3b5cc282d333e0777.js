@@ -1,19 +1,19 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "3a1a5fb8b90eda4f469b1340601176d0",
+    "revision": "adc903aebdcc749522f8bed6311271c4",
     "url": "/darcy/index.html"
   },
   {
-    "revision": "a0b9196744449b3eecf2",
-    "url": "/darcy/static/css/2.306cb585.chunk.css"
+    "revision": "80c7e53cb2ef2294306e",
+    "url": "/darcy/static/css/2.e38d0eb5.chunk.css"
   },
   {
     "revision": "e133a2073aa409be235b",
     "url": "/darcy/static/css/main.164603b8.chunk.css"
   },
   {
-    "revision": "a0b9196744449b3eecf2",
-    "url": "/darcy/static/js/2.e45ec9e6.chunk.js"
+    "revision": "80c7e53cb2ef2294306e",
+    "url": "/darcy/static/js/2.d8cad11b.chunk.js"
   },
   {
     "revision": "e133a2073aa409be235b",
