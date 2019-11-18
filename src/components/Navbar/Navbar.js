@@ -1,4 +1,4 @@
-import React, { Component, Fragment } from 'react';
+import React, { Component } from 'react';
 import { NavLink } from 'react-router-dom';
 import {
   Collapse,
@@ -11,7 +11,7 @@ import { PerseidsHeader } from 'perseids-react-components';
 
 import NavDropdownToggle from './NavDropdownToggle';
 
-const renderCollapse = collapsed => (
+const renderCollapse = (collapsed) => (
   <Collapse isOpen={!collapsed} navbar>
     <ul className="navbar-nav ml-auto">
       <li className="nav-item">
@@ -68,19 +68,23 @@ const renderCollapse = collapsed => (
 );
 
 class Navbar extends Component {
-  state = {
-    collapsed: true,
+  constructor(props) {
+    super(props);
+
+    this.state = {
+      collapsed: true,
+    };
   }
 
   toggleNavbar = () => {
-    this.setState(prevState => ({ collapsed: !prevState.collapsed }));
+    this.setState((prevState) => ({ collapsed: !prevState.collapsed }));
   }
 
   render() {
     const { collapsed } = this.state;
 
     return (
-      <Fragment>
+      <>
 
         <PerseidsHeader>
           <span className="text-muted mr-auto">
@@ -98,7 +102,7 @@ class Navbar extends Component {
           </div>
         </noscript>
 
-      </Fragment>
+      </>
     );
   }
 }

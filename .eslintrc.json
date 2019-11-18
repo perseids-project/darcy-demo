@@ -4,7 +4,8 @@
   "rules": {
     "react/jsx-filename-extension": [1, { "extensions": [".js"] }],
     "jsx-a11y/no-autofocus": "off",
-    "max-len": "off"
+    "max-len": "off",
+    "react/jsx-props-no-spreading": 0
   },
   "overrides": [
     {

@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 import PropTypes from 'prop-types';
 import { BrowserRouter, Route, Switch } from 'react-router-dom';
 
@@ -10,7 +10,7 @@ import Navbar from '../Navbar';
 
 const Router = ({ basename }) => (
   <BrowserRouter basename={basename}>
-    <Fragment>
+    <>
       <Navbar />
       <main role="main">
         <div className="mb-4">
@@ -24,7 +24,7 @@ const Router = ({ basename }) => (
           </Switch>
         </div>
       </main>
-    </Fragment>
+    </>
   </BrowserRouter>
 );
 

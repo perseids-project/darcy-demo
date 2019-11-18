@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import { EditionType } from '../../types';
 
@@ -7,7 +7,7 @@ import styles from './Bird.module.css';
 import glaux1 from './glaux-1.png';
 
 const renderFirstEdition = () => (
-  <Fragment>
+  <>
     <div className="row">
       <div className="col-md-8 offset-md-2 text-center">
         <h2>Glaux (1st edition)</h2>
@@ -33,11 +33,11 @@ const renderFirstEdition = () => (
         </p>
       </div>
     </div>
-  </Fragment>
+  </>
 );
 
 const renderSecondEdition = () => (
-  <Fragment>
+  <>
     <div className="row">
       <div className="col-md-8 offset-md-2 text-center">
         <h2>Glaux (2nd edition)</h2>
@@ -63,11 +63,11 @@ const renderSecondEdition = () => (
         </p>
       </div>
     </div>
-  </Fragment>
+  </>
 );
 
 const renderDiff = () => (
-  <Fragment>
+  <>
     <div className="row">
       <div className="col-md-8 offset-md-2 text-center">
         <h2>Glaux (diff)</h2>
@@ -114,7 +114,7 @@ const renderDiff = () => (
         </p>
       </div>
     </div>
-  </Fragment>
+  </>
 );
 
 const Glaux = ({ edition }) => {

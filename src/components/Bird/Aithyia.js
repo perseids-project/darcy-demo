@@ -1,4 +1,4 @@
-import React, { Fragment } from 'react';
+import React from 'react';
 
 import { EditionType } from '../../types';
 
@@ -8,7 +8,7 @@ import aithyia1 from './aithyia-1.jpg';
 import aithyia2 from './aithyia-2.jpg';
 
 const renderFirstEdition = () => (
-  <Fragment>
+  <>
     <div className="row">
       <div className="col-md-8 offset-md-2 text-center">
         <h2>Aithyia (1st edition)</h2>
@@ -251,11 +251,11 @@ const renderFirstEdition = () => (
         </p>
       </div>
     </div>
-  </Fragment>
+  </>
 );
 
 const renderSecondEdition = () => (
-  <Fragment>
+  <>
     <div className="row">
       <div className="col-md-8 offset-md-2 text-center">
         <h2>Aithyia (2nd edition)</h2>
@@ -695,12 +695,12 @@ const renderSecondEdition = () => (
         </p>
       </div>
     </div>
-  </Fragment>
+  </>
 );
 
 
 const renderDiff = () => (
-  <Fragment>
+  <>
     <div className="row">
       <div className="col-md-8 offset-md-2 text-center">
         <h2>Aithyia (diff)</h2>
@@ -796,7 +796,7 @@ const renderDiff = () => (
 
       </div>
     </div>
-  </Fragment>
+  </>
 );
 
 const Aithyia = ({ edition }) => {
