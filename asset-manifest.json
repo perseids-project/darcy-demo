@@ -1,17 +1,17 @@
 {
   "files": {
     "main.css": "/darcy/static/css/main.164603b8.chunk.css",
-    "main.js": "/darcy/static/js/main.5d077d8b.chunk.js",
-    "main.js.map": "/darcy/static/js/main.5d077d8b.chunk.js.map",
-    "runtime~main.js": "/darcy/static/js/runtime~main.b5ede6ac.js",
-    "runtime~main.js.map": "/darcy/static/js/runtime~main.b5ede6ac.js.map",
-    "static/css/2.e38d0eb5.chunk.css": "/darcy/static/css/2.e38d0eb5.chunk.css",
-    "static/js/2.d8cad11b.chunk.js": "/darcy/static/js/2.d8cad11b.chunk.js",
-    "static/js/2.d8cad11b.chunk.js.map": "/darcy/static/js/2.d8cad11b.chunk.js.map",
+    "main.js": "/darcy/static/js/main.b8784601.chunk.js",
+    "main.js.map": "/darcy/static/js/main.b8784601.chunk.js.map",
+    "runtime-main.js": "/darcy/static/js/runtime-main.6614f580.js",
+    "runtime-main.js.map": "/darcy/static/js/runtime-main.6614f580.js.map",
+    "static/css/2.679bc3b4.chunk.css": "/darcy/static/css/2.679bc3b4.chunk.css",
+    "static/js/2.e28044ac.chunk.js": "/darcy/static/js/2.e28044ac.chunk.js",
+    "static/js/2.e28044ac.chunk.js.map": "/darcy/static/js/2.e28044ac.chunk.js.map",
     "index.html": "/darcy/index.html",
-    "precache-manifest.039064dfa72330b3b5cc282d333e0777.js": "/darcy/precache-manifest.039064dfa72330b3b5cc282d333e0777.js",
+    "precache-manifest.b9e20212d2046f28c238d86d0c2e1ddb.js": "/darcy/precache-manifest.b9e20212d2046f28c238d86d0c2e1ddb.js",
     "service-worker.js": "/darcy/service-worker.js",
-    "static/css/2.e38d0eb5.chunk.css.map": "/darcy/static/css/2.e38d0eb5.chunk.css.map",
+    "static/css/2.679bc3b4.chunk.css.map": "/darcy/static/css/2.679bc3b4.chunk.css.map",
     "static/css/main.164603b8.chunk.css.map": "/darcy/static/css/main.164603b8.chunk.css.map",
     "static/media/FCA-mockup.fdaf2524.svg": "/darcy/static/media/FCA-mockup.fdaf2524.svg",
     "static/media/aithyia-1.jpg": "/darcy/static/media/aithyia-1.84a4a3ef.jpg",
@@ -21,5 +21,12 @@
     "static/media/Hero.module.css": "/darcy/static/media/birds.bb83941b.jpg",
     "static/media/glaux-1.png": "/darcy/static/media/glaux-1.7d8e9ca5.png",
     "static/media/glaux.b3d34c73.svg": "/darcy/static/media/glaux.b3d34c73.svg"
-  }
+  },
+  "entrypoints": [
+    "static/js/runtime-main.6614f580.js",
+    "static/css/2.679bc3b4.chunk.css",
+    "static/js/2.e28044ac.chunk.js",
+    "static/css/main.164603b8.chunk.css",
+    "static/js/main.b8784601.chunk.js"
+  ]
 }
