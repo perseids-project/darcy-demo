@@ -1,27 +1,31 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "85d0af62c9458af0867fd7628d6a6834",
+    "revision": "485149abd4ec09e29f2bd77fb8ad837c",
     "url": "/darcy/index.html"
   },
   {
-    "revision": "ad9bd49d11308c118f6c",
-    "url": "/darcy/static/css/2.679bc3b4.chunk.css"
+    "revision": "f96e4b3a4c4d22b4e9ff",
+    "url": "/darcy/static/css/2.2fe1d077.chunk.css"
   },
   {
-    "revision": "97216913385164c527da",
+    "revision": "27884d62ccd6661e634e",
     "url": "/darcy/static/css/main.164603b8.chunk.css"
   },
   {
-    "revision": "ad9bd49d11308c118f6c",
-    "url": "/darcy/static/js/2.e28044ac.chunk.js"
+    "revision": "f96e4b3a4c4d22b4e9ff",
+    "url": "/darcy/static/js/2.96596f02.chunk.js"
   },
   {
-    "revision": "97216913385164c527da",
-    "url": "/darcy/static/js/main.b8784601.chunk.js"
+    "revision": "54f6e2d0ef339619d0a432be7ac0ab75",
+    "url": "/darcy/static/js/2.96596f02.chunk.js.LICENSE"
   },
   {
-    "revision": "db0adc04ec9b0274d5b4",
-    "url": "/darcy/static/js/runtime-main.6614f580.js"
+    "revision": "27884d62ccd6661e634e",
+    "url": "/darcy/static/js/main.d4d1c1b9.chunk.js"
+  },
+  {
+    "revision": "a5c49ac5be879789c7f7",
+    "url": "/darcy/static/js/runtime-main.5890ef3e.js"
   },
   {
     "revision": "fdaf2524f92326b33f529a95a3cd43d9",
