@@ -1,18 +1,19 @@
 {
   "files": {
     "main.css": "/darcy-demo/static/css/main.9318cdbd.chunk.css",
-    "main.js": "/darcy-demo/static/js/main.80a38c72.chunk.js",
-    "main.js.map": "/darcy-demo/static/js/main.80a38c72.chunk.js.map",
-    "runtime-main.js": "/darcy-demo/static/js/runtime-main.db128bfc.js",
-    "runtime-main.js.map": "/darcy-demo/static/js/runtime-main.db128bfc.js.map",
-    "static/css/2.b62598c8.chunk.css": "/darcy-demo/static/css/2.b62598c8.chunk.css",
-    "static/js/2.e28044ac.chunk.js": "/darcy-demo/static/js/2.e28044ac.chunk.js",
-    "static/js/2.e28044ac.chunk.js.map": "/darcy-demo/static/js/2.e28044ac.chunk.js.map",
+    "main.js": "/darcy-demo/static/js/main.c2441f90.chunk.js",
+    "main.js.map": "/darcy-demo/static/js/main.c2441f90.chunk.js.map",
+    "runtime-main.js": "/darcy-demo/static/js/runtime-main.dc0f18ef.js",
+    "runtime-main.js.map": "/darcy-demo/static/js/runtime-main.dc0f18ef.js.map",
+    "static/css/2.d58cbf40.chunk.css": "/darcy-demo/static/css/2.d58cbf40.chunk.css",
+    "static/js/2.96596f02.chunk.js": "/darcy-demo/static/js/2.96596f02.chunk.js",
+    "static/js/2.96596f02.chunk.js.map": "/darcy-demo/static/js/2.96596f02.chunk.js.map",
     "index.html": "/darcy-demo/index.html",
-    "precache-manifest.5333a0ec17d0c1a803c0dc12eeec1f03.js": "/darcy-demo/precache-manifest.5333a0ec17d0c1a803c0dc12eeec1f03.js",
+    "precache-manifest.420d0af217a65697421776fec93040ed.js": "/darcy-demo/precache-manifest.420d0af217a65697421776fec93040ed.js",
     "service-worker.js": "/darcy-demo/service-worker.js",
-    "static/css/2.b62598c8.chunk.css.map": "/darcy-demo/static/css/2.b62598c8.chunk.css.map",
+    "static/css/2.d58cbf40.chunk.css.map": "/darcy-demo/static/css/2.d58cbf40.chunk.css.map",
     "static/css/main.9318cdbd.chunk.css.map": "/darcy-demo/static/css/main.9318cdbd.chunk.css.map",
+    "static/js/2.96596f02.chunk.js.LICENSE": "/darcy-demo/static/js/2.96596f02.chunk.js.LICENSE",
     "static/media/FCA-mockup.fdaf2524.svg": "/darcy-demo/static/media/FCA-mockup.fdaf2524.svg",
     "static/media/aithyia-1.jpg": "/darcy-demo/static/media/aithyia-1.84a4a3ef.jpg",
     "static/media/aithyia-2.jpg": "/darcy-demo/static/media/aithyia-2.2424b19c.jpg",
@@ -23,10 +24,10 @@
     "static/media/glaux.b3d34c73.svg": "/darcy-demo/static/media/glaux.b3d34c73.svg"
   },
   "entrypoints": [
-    "static/js/runtime-main.db128bfc.js",
-    "static/css/2.b62598c8.chunk.css",
-    "static/js/2.e28044ac.chunk.js",
+    "static/js/runtime-main.dc0f18ef.js",
+    "static/css/2.d58cbf40.chunk.css",
+    "static/js/2.96596f02.chunk.js",
     "static/css/main.9318cdbd.chunk.css",
-    "static/js/main.80a38c72.chunk.js"
+    "static/js/main.c2441f90.chunk.js"
   ]
 }
