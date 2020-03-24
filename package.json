@@ -6,18 +6,21 @@
   "dependencies": {
     "alpheios-embedded": "^0.6.1",
     "bootstrap": "^4.4.1",
-    "eslint-config-airbnb": "^18.0.1",
-    "eslint-plugin-jest": "^23.3.0",
+    "eslint-config-airbnb": "^18.1.0",
+    "eslint-plugin-jest": "^23.8.2",
     "perseids-react-components": "^0.2.1",
     "prop-types": "^15.7.1",
-    "react": "16.12.0",
-    "react-dom": "16.12.0",
+    "react": "16.13.1",
+    "react-dom": "16.13.1",
     "react-router": "^5.1.2",
     "react-router-dom": "^5.1.2",
-    "react-scripts": "3.3.0",
-    "reactstrap": "^8.2.0",
+    "react-scripts": "3.4.1",
+    "reactstrap": "^8.4.1",
     "typeface-arimo": "^0.0.72",
     "typeface-tinos": "^0.0.72"
+  },
+  "resolutions": {
+    "mkdirp": "0.5.4"
   },
   "scripts": {
     "deploy": "yarn deploy-github && yarn deploy-perseids",

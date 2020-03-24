@@ -16,10 +16,10 @@ const Home = () => (
       <div className="row">
         <div className="col-md-8 offset-md-2 text-center">
           <h2>
-              Browse Ancient Bird Myths by Concept
+            Browse Ancient Bird Myths by Concept
           </h2>
           <p>
-              Type search terms to populate the graph with stories! This lattice addresses the question: &quot;What significance did the Greeks attribute to the aithyia?&quot; In the graph, the orange ellipses represent the concepts in the context &quot;aithyia&quot;.  The light blue circles represent the number of ancient sources that mention each concept. The dark blue circles show the number of ancient sources that mention the two concepts together. The blue ellipses simulate a click on the circle, revealing the stories that mention the two concepts and linking to primary sources.
+            Type search terms to populate the graph with stories! This lattice addresses the question: &quot;What significance did the Greeks attribute to the aithyia?&quot; In the graph, the orange ellipses represent the concepts in the context &quot;aithyia&quot;.  The light blue circles represent the number of ancient sources that mention each concept. The dark blue circles show the number of ancient sources that mention the two concepts together. The blue ellipses simulate a click on the circle, revealing the stories that mention the two concepts and linking to primary sources.
           </p>
         </div>
       </div>

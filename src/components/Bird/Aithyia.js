@@ -69,7 +69,7 @@ const renderFirstEdition = () => (
             ἡ δʼ αἴθυια καὶ οἱ λάροι τίκτουσι μέν ἐν ταῖς περὶ θάλατταν πέτραις, τὸ μέν πλῆθος δύο ἢ τρία· ἀλλʼ ὁ μέν λάρος τοῦ θέρους, ἡ δʼ αἴθυια ἀρχομένου τοῦ ἔαρος
           </span>
           {' '}
-           &quot;The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place.&quot; Schneider&apos;s identification with the
+          &quot;The aithyia, or diver, and the larus, or gull, lay their eggs on rocks bordering on the sea, two or three at a time; but the gull lays in the summer, and the diver at the beginning of spring, just after the winter solstice, and it broods over its eggs as birds do in general. And neither of these birds resorts to a hiding-place.&quot; Schneider&apos;s identification with the
           {' '}
           <strong>Skua</strong>
           ,
@@ -113,13 +113,13 @@ const renderFirstEdition = () => (
           {' '}
           <a href="http://data.perseus.org/citations/urn:cts:latinLit:phi0978.phi001.perseus-eng1:10.48">
             <em lang="lat">Naturalis Historia</em>
-          , 10. 48
+            , 10. 48
           </a>
           . Also the same comment by Pliny at 1. 487, 8.3. Αrrian,
           {' '}
           <a href="http://data.perseus.org/citations/urn:cts:greekLit:tlg0074.tlg004.perseus-grc1:3">
             <em>Periplus</em>
-          , 89
+            , 89
           </a>
           {' '}
           names it with
@@ -167,7 +167,7 @@ const renderFirstEdition = () => (
             ὄλετο γὰρ σὺν νηὶ, τὰ δʼ ὁστέα ποῦ ποτʼ ἐκείνου πύθεται, αἰθυίαις γνωστὰ μόναις ἐνέπειν,
           </span>
           {' '}
-            &quot;He perished with his ship, and no one has found out where his bones lie, only the aithyiai can tell&quot;,
+          &quot;He perished with his ship, and no one has found out where his bones lie, only the aithyiai can tell&quot;,
           {' '}
           <a href="http://data.perseus.org/citations/urn:cts:greekLit:tlg7000.tlg001.perseus-grc2:7.374">7.374</a>
           ,
@@ -432,7 +432,7 @@ const renderSecondEdition = () => (
           {' '}
           <a href="https://www.thelatinlibrary.com/horace/serm2.shtml#2.2" target="blank">
             <em>Satires</em>
-          , 2.2.51
+            , 2.2.51
           </a>
           {' '}
           <span lang="lat">si quis nunc mergos suaves edixerit assos, </span>
@@ -529,7 +529,7 @@ const renderSecondEdition = () => (
           A sign of storm; Aratus,
           <a href="https://www.theoi.com/Text/AratusPhaenomena.html" target="blank">
             <em>Phaenomena</em>
-          , 918
+            , 918
           </a>
           {' '}
           <span lang="grc">πολλάκι δ’ ἀγριάδες νῆσσαι ἢ εἰναιλίδιναι | αἵθυιαι χερσαῖα τινάσσονται πτερύγεσσιν</span>
